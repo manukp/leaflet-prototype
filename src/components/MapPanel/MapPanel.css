@@ -1,0 +1,82 @@
+.map-panel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.map-container {
+  flex: 1;
+  width: 100%;
+  min-height: 0;
+}
+
+.map-loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background: #1a1a2e;
+  color: #eee;
+}
+
+.custom-marker {
+  background: transparent;
+  border: none;
+}
+
+.location-popup {
+  min-width: 200px;
+  max-width: 280px;
+}
+
+.location-popup h3 {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.location-popup .location-type {
+  display: inline-block;
+  background: #3498db;
+  color: white;
+  padding: 2px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.location-popup .location-address {
+  font-size: 12px;
+  color: #666;
+  margin: 0 0 4px 0;
+}
+
+.location-popup .location-description {
+  font-size: 13px;
+  color: #444;
+  margin: 0 0 12px 0;
+}
+
+.popup-section {
+  margin-top: 12px;
+  padding-top: 8px;
+  border-top: 1px solid #ddd;
+}
+
+.popup-section h4 {
+  margin: 0 0 6px 0;
+  font-size: 13px;
+  color: #555;
+}
+
+.popup-section ul {
+  margin: 0;
+  padding: 0 0 0 16px;
+  font-size: 12px;
+}
+
+.popup-section li {
+  margin-bottom: 3px;
+  color: #666;
+}

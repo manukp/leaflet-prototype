@@ -1,0 +1,85 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #0f0f1a;
+  color: #eee;
+}
+
+.app-header {
+  background: #1a1a2e;
+  padding: 12px 24px;
+  border-bottom: 1px solid #333;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.app-main {
+  flex: 1;
+  display: flex;
+  min-height: 0;
+  overflow: hidden;
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.panel-1 {
+  width: 280px;
+  min-width: 240px;
+  border-right: 1px solid #333;
+}
+
+.panel-2 {
+  flex: 1;
+  min-width: 400px;
+}
+
+.panel-2a {
+  flex: 1;
+  min-height: 0;
+}
+
+.panel-2b {
+  flex-shrink: 0;
+}
+
+.panel-3 {
+  min-width: 200px;
+  max-width: 600px;
+  flex-shrink: 0;
+}
+
+/* Resizable divider */
+.resize-handle {
+  width: 8px;
+  background: #1a1a2e;
+  cursor: col-resize;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.resize-handle:hover {
+  background: #2d2d44;
+}
+
+.resize-handle-bar {
+  width: 4px;
+  height: 40px;
+  background: #444;
+  border-radius: 2px;
+  transition: background 0.2s;
+}
+
+.resize-handle:hover .resize-handle-bar {
+  background: #3498db;
+}
