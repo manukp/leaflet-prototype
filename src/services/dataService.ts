@@ -1,6 +1,7 @@
 import type { Case, Location, Event, Individual, Relationship } from '../types';
 
-const BASE_URL = '/data';
+// Use Vite's base URL to handle GitHub Pages subdirectory deployment
+const BASE_URL = `${import.meta.env.BASE_URL}data`;
 
 export async function loadCases(): Promise<Case[]> {
   const response = await fetch(`${BASE_URL}/cases.json`);

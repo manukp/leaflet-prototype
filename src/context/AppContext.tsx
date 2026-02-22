@@ -133,14 +133,17 @@ export function AppProvider({ children }: { children: ReactNode }) {
     setFilters(prev => ({ ...prev, currentTimePoint: time }));
   }, []);
 
-  // Computed filtered data - filter events first since locations and individuals depend on time filtering
+  // Computed filtered data
   const filteredEvents = events.filter(evt => {
+    // Case filter
     if (filters.selectedCaseIds.length > 0) {
       if (!evt.caseIds.some(cid => filters.selectedCaseIds.includes(cid))) return false;
     }
+    // Event type filter
     if (filters.selectedEventTypes.length > 0) {
       if (!filters.selectedEventTypes.includes(evt.type)) return false;
     }
+    // Time filters
     if (filters.currentTimePoint) {
       const eventTime = new Date(evt.timestamp).getTime();
       if (eventTime > filters.currentTimePoint.getTime()) return false;
@@ -152,36 +155,42 @@ export function AppProvider({ children }: { children: ReactNode }) {
     return true;
   });
 
-  // Get location IDs that have events within the filtered time range
+  // Get location IDs and individual IDs that have events within the filtered time range
   const locationIdsWithFilteredEvents = new Set(filteredEvents.map(evt => evt.locationId));
-
-  // Get individual IDs that have events within the filtered time range
   const individualIdsWithFilteredEvents = new Set(
     filteredEvents.flatMap(evt => evt.relatedIndividualIds)
   );
 
   const filteredLocations = locations.filter(loc => {
-    // Must have events within the time range
-    if (!locationIdsWithFilteredEvents.has(loc.id)) return false;
-
+    // Case filter - if cases selected, location must belong to one of them
     if (filters.selectedCaseIds.length > 0) {
       if (!loc.caseIds.some(cid => filters.selectedCaseIds.includes(cid))) return false;
     }
+    // Location type filter
     if (filters.selectedLocationTypes.length > 0) {
       if (!filters.selectedLocationTypes.includes(loc.type)) return false;
+    }
+    // Time filter - only apply if no specific case is selected
+    // When a case is selected, show all locations for that case regardless of time
+    if (filters.selectedCaseIds.length === 0) {
+      if (!locationIdsWithFilteredEvents.has(loc.id)) return false;
     }
     return true;
   });
 
   const filteredIndividuals = individuals.filter(ind => {
-    // Must have events within the time range
-    if (!individualIdsWithFilteredEvents.has(ind.id)) return false;
-
+    // Case filter - if cases selected, individual must belong to one of them
     if (filters.selectedCaseIds.length > 0) {
       if (!ind.caseIds.some(cid => filters.selectedCaseIds.includes(cid))) return false;
     }
+    // Role filter
     if (filters.selectedIndividualRoles.length > 0) {
       if (!filters.selectedIndividualRoles.includes(ind.role)) return false;
+    }
+    // Time filter - only apply if no specific case is selected
+    // When a case is selected, show all individuals for that case regardless of time
+    if (filters.selectedCaseIds.length === 0) {
+      if (!individualIdsWithFilteredEvents.has(ind.id)) return false;
     }
     return true;
   });
