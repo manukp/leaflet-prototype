@@ -1,0 +1,533 @@
+[
+  {
+    "id": "rel-001",
+    "sourceIndividualId": "ind-001",
+    "targetIndividualId": "ind-015",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-001"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-002",
+    "sourceIndividualId": "ind-001",
+    "targetIndividualId": "ind-045",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-008"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-003",
+    "sourceIndividualId": "ind-007",
+    "targetIndividualId": "ind-015",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-001"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-004",
+    "sourceIndividualId": "ind-007",
+    "targetIndividualId": "ind-051",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-005"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-005",
+    "sourceIndividualId": "ind-013",
+    "targetIndividualId": "ind-015",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-002"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-006",
+    "sourceIndividualId": "ind-013",
+    "targetIndividualId": "ind-051",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-002"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-007",
+    "sourceIndividualId": "ind-019",
+    "targetIndividualId": "ind-033",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-007"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-008",
+    "sourceIndividualId": "ind-019",
+    "targetIndividualId": "ind-039",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-007"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-009",
+    "sourceIndividualId": "ind-025",
+    "targetIndividualId": "ind-015",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-001"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-010",
+    "sourceIndividualId": "ind-025",
+    "targetIndividualId": "ind-021",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-006"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-011",
+    "sourceIndividualId": "ind-031",
+    "targetIndividualId": "ind-045",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-008"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-012",
+    "sourceIndividualId": "ind-031",
+    "targetIndividualId": "ind-051",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-005"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-013",
+    "sourceIndividualId": "ind-037",
+    "targetIndividualId": "ind-003",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-003"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-014",
+    "sourceIndividualId": "ind-037",
+    "targetIndividualId": "ind-033",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-007"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-015",
+    "sourceIndividualId": "ind-049",
+    "targetIndividualId": "ind-045",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-004"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-016",
+    "sourceIndividualId": "ind-049",
+    "targetIndividualId": "ind-051",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-004"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-017",
+    "sourceIndividualId": "ind-055",
+    "targetIndividualId": "ind-057",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-009"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-018",
+    "sourceIndividualId": "ind-061",
+    "targetIndividualId": "ind-015",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-001",
+      "case-002"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-019",
+    "sourceIndividualId": "ind-061",
+    "targetIndividualId": "ind-051",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-002"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-020",
+    "sourceIndividualId": "ind-067",
+    "targetIndividualId": "ind-033",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-007"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-021",
+    "sourceIndividualId": "ind-067",
+    "targetIndividualId": "ind-039",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-007"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-022",
+    "sourceIndividualId": "ind-073",
+    "targetIndividualId": "ind-015",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-001"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-023",
+    "sourceIndividualId": "ind-073",
+    "targetIndividualId": "ind-045",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-010"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-024",
+    "sourceIndividualId": "ind-079",
+    "targetIndividualId": "ind-021",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-015"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-025",
+    "sourceIndividualId": "ind-079",
+    "targetIndividualId": "ind-027",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-015"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-026",
+    "sourceIndividualId": "ind-085",
+    "targetIndividualId": "ind-051",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-005"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-027",
+    "sourceIndividualId": "ind-091",
+    "targetIndividualId": "ind-057",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-009"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-028",
+    "sourceIndividualId": "ind-097",
+    "targetIndividualId": "ind-015",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-001"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-029",
+    "sourceIndividualId": "ind-097",
+    "targetIndividualId": "ind-051",
+    "relationshipType": "suspect-victim",
+    "description": "Suspect linked to victim in case",
+    "caseIds": [
+      "case-005"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-030",
+    "sourceIndividualId": "ind-002",
+    "targetIndividualId": "ind-001",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-001"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-031",
+    "sourceIndividualId": "ind-008",
+    "targetIndividualId": "ind-055",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-009"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-032",
+    "sourceIndividualId": "ind-014",
+    "targetIndividualId": "ind-013",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-002"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-033",
+    "sourceIndividualId": "ind-020",
+    "targetIndividualId": "ind-049",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-004"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-034",
+    "sourceIndividualId": "ind-026",
+    "targetIndividualId": "ind-013",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-002"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-035",
+    "sourceIndividualId": "ind-032",
+    "targetIndividualId": "ind-079",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-015"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-036",
+    "sourceIndividualId": "ind-038",
+    "targetIndividualId": "ind-001",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-001"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-037",
+    "sourceIndividualId": "ind-044",
+    "targetIndividualId": "ind-001",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-001",
+      "case-008"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-038",
+    "sourceIndividualId": "ind-050",
+    "targetIndividualId": "ind-019",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-007"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-039",
+    "sourceIndividualId": "ind-056",
+    "targetIndividualId": "ind-001",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-008"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-040",
+    "sourceIndividualId": "ind-062",
+    "targetIndividualId": "ind-001",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-001"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-041",
+    "sourceIndividualId": "ind-068",
+    "targetIndividualId": "ind-001",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-008",
+      "case-001"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-042",
+    "sourceIndividualId": "ind-074",
+    "targetIndividualId": "ind-001",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-001"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-043",
+    "sourceIndividualId": "ind-080",
+    "targetIndividualId": "ind-001",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-001"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-044",
+    "sourceIndividualId": "ind-086",
+    "targetIndividualId": "ind-013",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-002"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-045",
+    "sourceIndividualId": "ind-092",
+    "targetIndividualId": "ind-025",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-006"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-046",
+    "sourceIndividualId": "ind-098",
+    "targetIndividualId": "ind-019",
+    "relationshipType": "witness-suspect",
+    "description": "Witness identified suspect",
+    "caseIds": [
+      "case-013"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-047",
+    "sourceIndividualId": "ind-001",
+    "targetIndividualId": "ind-007",
+    "relationshipType": "associate",
+    "description": "Known associates",
+    "caseIds": [
+      "case-001"
+    ],
+    "eventIds": []
+  },
+  {
+    "id": "rel-048",
+    "sourceIndividualId": "ind-079",
+    "targetIndividualId": "ind-085",
+    "relationshipType": "associate",
+    "description": "Known associates",
+    "caseIds": [
+      "case-005"
+    ],
+    "eventIds": []
+  }
+]

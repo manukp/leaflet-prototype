@@ -1,0 +1,3849 @@
+[
+  {
+    "id": "loc-001",
+    "name": "Crime Scene #1",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.41615873034455,
+      "longitude": -112.15684252864018
+    },
+    "address": "2472 Maple Dr, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-001",
+      "evt-151"
+    ],
+    "relatedIndividualIds": [
+      "ind-071",
+      "ind-097",
+      "ind-021",
+      "ind-100"
+    ],
+    "caseIds": [
+      "case-008",
+      "case-015",
+      "case-005"
+    ]
+  },
+  {
+    "id": "loc-002",
+    "name": "9480 Palm Ave",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.15575051301408,
+      "longitude": -118.11908737280842
+    },
+    "address": "9480 Palm Ave, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-002",
+      "evt-152"
+    ],
+    "relatedIndividualIds": [
+      "ind-044",
+      "ind-058"
+    ],
+    "caseIds": [
+      "case-007",
+      "case-008"
+    ]
+  },
+  {
+    "id": "loc-003",
+    "name": "6628 Lincoln Ave",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.26388372609251,
+      "longitude": -111.06506648475944
+    },
+    "address": "6628 Lincoln Ave, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-003",
+      "evt-153"
+    ],
+    "relatedIndividualIds": [
+      "ind-020",
+      "ind-023",
+      "ind-005",
+      "ind-025"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-004",
+    "name": "5851 Cactus Dr",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.52413993953686,
+      "longitude": -112.14898047485241
+    },
+    "address": "5851 Cactus Dr, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-004",
+      "evt-154"
+    ],
+    "relatedIndividualIds": [
+      "ind-073",
+      "ind-081",
+      "ind-015",
+      "ind-005",
+      "ind-047",
+      "ind-046"
+    ],
+    "caseIds": [
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-005",
+    "name": "Desert Auto Parts",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.04461441352854,
+      "longitude": -118.23704077003184
+    },
+    "address": "9580 Palm Ave, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-005",
+      "evt-155"
+    ],
+    "relatedIndividualIds": [
+      "ind-064",
+      "ind-026",
+      "ind-011",
+      "ind-052",
+      "ind-048"
+    ],
+    "caseIds": [
+      "case-010",
+      "case-007",
+      "case-012"
+    ]
+  },
+  {
+    "id": "loc-006",
+    "name": "534 Market St",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.236459973777066,
+      "longitude": -110.84944534705284
+    },
+    "address": "534 Market St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-006",
+      "evt-156"
+    ],
+    "relatedIndividualIds": [
+      "ind-027",
+      "ind-087",
+      "ind-079",
+      "ind-006",
+      "ind-072",
+      "ind-039"
+    ],
+    "caseIds": [
+      "case-015"
+    ]
+  },
+  {
+    "id": "loc-007",
+    "name": "9204 Cactus Dr",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.59536642993249,
+      "longitude": -112.19640088558137
+    },
+    "address": "9204 Cactus Dr, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-007",
+      "evt-157"
+    ],
+    "relatedIndividualIds": [
+      "ind-024",
+      "ind-061",
+      "ind-051",
+      "ind-059",
+      "ind-003"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-002",
+      "case-008"
+    ]
+  },
+  {
+    "id": "loc-008",
+    "name": "215 Palm Ave",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 33.965528407075865,
+      "longitude": -118.29713669330084
+    },
+    "address": "215 Palm Ave, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-008",
+      "evt-158"
+    ],
+    "relatedIndividualIds": [
+      "ind-009",
+      "ind-057",
+      "ind-058",
+      "ind-060"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-012",
+      "case-007"
+    ]
+  },
+  {
+    "id": "loc-009",
+    "name": "4579 Central Ave",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.20187573615334,
+      "longitude": -110.94909664274108
+    },
+    "address": "4579 Central Ave, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-009",
+      "evt-159"
+    ],
+    "relatedIndividualIds": [
+      "ind-072",
+      "ind-079",
+      "ind-012",
+      "ind-027",
+      "ind-077"
+    ],
+    "caseIds": [
+      "case-011",
+      "case-015"
+    ]
+  },
+  {
+    "id": "loc-010",
+    "name": "Crime Scene #10",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.42146354533979,
+      "longitude": -112.07401764489904
+    },
+    "address": "9108 Cactus Dr, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-010",
+      "evt-160"
+    ],
+    "relatedIndividualIds": [
+      "ind-015",
+      "ind-082",
+      "ind-043",
+      "ind-046",
+      "ind-014"
+    ],
+    "caseIds": [
+      "case-011",
+      "case-002",
+      "case-012"
+    ]
+  },
+  {
+    "id": "loc-011",
+    "name": "4313 Elm St",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.13247241889547,
+      "longitude": -118.29164513702624
+    },
+    "address": "4313 Elm St, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-011",
+      "evt-161"
+    ],
+    "relatedIndividualIds": [
+      "ind-064",
+      "ind-001",
+      "ind-006",
+      "ind-029",
+      "ind-049",
+      "ind-068"
+    ],
+    "caseIds": [
+      "case-008",
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-012",
+    "name": "8860 Central Ave",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.19147726909814,
+      "longitude": -111.03639160481258
+    },
+    "address": "8860 Central Ave, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-012",
+      "evt-162"
+    ],
+    "relatedIndividualIds": [
+      "ind-092",
+      "ind-054"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-013",
+    "name": "538 Park Ave",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.49075636792866,
+      "longitude": -112.19505860811631
+    },
+    "address": "538 Park Ave, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-013",
+      "evt-163"
+    ],
+    "relatedIndividualIds": [
+      "ind-012",
+      "ind-001",
+      "ind-021",
+      "ind-002",
+      "ind-029",
+      "ind-058"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-014",
+    "name": "Valley Electronics",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 33.98055332879435,
+      "longitude": -118.16182745104945
+    },
+    "address": "9211 Washington Blvd, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-014",
+      "evt-164"
+    ],
+    "relatedIndividualIds": [
+      "ind-008",
+      "ind-001",
+      "ind-090",
+      "ind-068",
+      "ind-087"
+    ],
+    "caseIds": [
+      "case-009",
+      "case-014",
+      "case-008"
+    ]
+  },
+  {
+    "id": "loc-015",
+    "name": "8844 Washington Blvd",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.1151210832224,
+      "longitude": -111.02684542930295
+    },
+    "address": "8844 Washington Blvd, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-015",
+      "evt-165"
+    ],
+    "relatedIndividualIds": [
+      "ind-009",
+      "ind-028",
+      "ind-020",
+      "ind-035",
+      "ind-051",
+      "ind-045"
+    ],
+    "caseIds": [
+      "case-012",
+      "case-006",
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-016",
+    "name": "1803 Maple Dr",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.440587394068544,
+      "longitude": -112.14297459610448
+    },
+    "address": "1803 Maple Dr, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-016",
+      "evt-166"
+    ],
+    "relatedIndividualIds": [
+      "ind-017",
+      "ind-030",
+      "ind-073",
+      "ind-087",
+      "ind-024"
+    ],
+    "caseIds": [
+      "case-004",
+      "case-014",
+      "case-010"
+    ]
+  },
+  {
+    "id": "loc-017",
+    "name": "1743 Broadway",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 33.92639150548623,
+      "longitude": -118.30499161553246
+    },
+    "address": "1743 Broadway, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-017",
+      "evt-167"
+    ],
+    "relatedIndividualIds": [
+      "ind-074",
+      "ind-077",
+      "ind-001",
+      "ind-061",
+      "ind-052"
+    ],
+    "caseIds": [
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-018",
+    "name": "7582 Cedar Ln",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.3599259883721,
+      "longitude": -110.84765167221506
+    },
+    "address": "7582 Cedar Ln, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-018",
+      "evt-168"
+    ],
+    "relatedIndividualIds": [
+      "ind-027",
+      "ind-037"
+    ],
+    "caseIds": [
+      "case-015",
+      "case-003"
+    ]
+  },
+  {
+    "id": "loc-019",
+    "name": "Crime Scene #19",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.411332361576456,
+      "longitude": -112.11255133748875
+    },
+    "address": "347 Market St, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-019",
+      "evt-169"
+    ],
+    "relatedIndividualIds": [
+      "ind-018",
+      "ind-100",
+      "ind-028",
+      "ind-010",
+      "ind-001",
+      "ind-022"
+    ],
+    "caseIds": [
+      "case-004",
+      "case-008",
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-020",
+    "name": "7502 Commerce Way",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 33.937909252959344,
+      "longitude": -118.12640760671827
+    },
+    "address": "7502 Commerce Way, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-020",
+      "evt-170"
+    ],
+    "relatedIndividualIds": [
+      "ind-087",
+      "ind-068",
+      "ind-052",
+      "ind-004",
+      "ind-039"
+    ],
+    "caseIds": [
+      "case-015",
+      "case-005"
+    ]
+  },
+  {
+    "id": "loc-021",
+    "name": "3398 Market St",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.174422348254055,
+      "longitude": -110.94716215982298
+    },
+    "address": "3398 Market St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-021",
+      "evt-171"
+    ],
+    "relatedIndividualIds": [
+      "ind-028",
+      "ind-039",
+      "ind-094"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-012"
+    ]
+  },
+  {
+    "id": "loc-022",
+    "name": "7638 Maple Dr",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.445105506133416,
+      "longitude": -112.14566626294369
+    },
+    "address": "7638 Maple Dr, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-022",
+      "evt-172"
+    ],
+    "relatedIndividualIds": [
+      "ind-065",
+      "ind-060",
+      "ind-067"
+    ],
+    "caseIds": [
+      "case-007"
+    ]
+  },
+  {
+    "id": "loc-023",
+    "name": "Border Supply Co",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.00287989830405,
+      "longitude": -118.30372864841665
+    },
+    "address": "3544 Desert View Rd, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-023",
+      "evt-173"
+    ],
+    "relatedIndividualIds": [
+      "ind-028",
+      "ind-048",
+      "ind-051",
+      "ind-052",
+      "ind-025",
+      "ind-035"
+    ],
+    "caseIds": [
+      "case-010",
+      "case-006",
+      "case-005"
+    ]
+  },
+  {
+    "id": "loc-024",
+    "name": "8425 Jefferson St",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.23298754031211,
+      "longitude": -110.86220311870231
+    },
+    "address": "8425 Jefferson St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-024",
+      "evt-174"
+    ],
+    "relatedIndividualIds": [
+      "ind-075",
+      "ind-078",
+      "ind-059",
+      "ind-035"
+    ],
+    "caseIds": [
+      "case-015",
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-025",
+    "name": "9167 Pine Rd",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.30187761314802,
+      "longitude": -111.96088653492366
+    },
+    "address": "9167 Pine Rd, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-025",
+      "evt-175"
+    ],
+    "relatedIndividualIds": [
+      "ind-037",
+      "ind-028",
+      "ind-100",
+      "ind-018",
+      "ind-019",
+      "ind-099",
+      "ind-084"
+    ],
+    "caseIds": [
+      "case-013"
+    ]
+  },
+  {
+    "id": "loc-026",
+    "name": "5518 Sunset Blvd",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.13045997284989,
+      "longitude": -118.34382920022362
+    },
+    "address": "5518 Sunset Blvd, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-026",
+      "evt-176"
+    ],
+    "relatedIndividualIds": [
+      "ind-045",
+      "ind-076",
+      "ind-024"
+    ],
+    "caseIds": [
+      "case-008"
+    ]
+  },
+  {
+    "id": "loc-027",
+    "name": "2756 Market St",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.207896744770366,
+      "longitude": -111.00620696495814
+    },
+    "address": "2756 Market St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-027",
+      "evt-177"
+    ],
+    "relatedIndividualIds": [
+      "ind-009",
+      "ind-003",
+      "ind-005",
+      "ind-011"
+    ],
+    "caseIds": [
+      "case-012",
+      "case-003"
+    ]
+  },
+  {
+    "id": "loc-028",
+    "name": "Crime Scene #28",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.48189712439103,
+      "longitude": -111.96263375929762
+    },
+    "address": "2250 Main St, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-028",
+      "evt-178"
+    ],
+    "relatedIndividualIds": [
+      "ind-064",
+      "ind-016",
+      "ind-065",
+      "ind-057",
+      "ind-038"
+    ],
+    "caseIds": [
+      "case-009",
+      "case-010"
+    ]
+  },
+  {
+    "id": "loc-029",
+    "name": "1450 Washington Blvd",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.07758017387292,
+      "longitude": -118.12773120009432
+    },
+    "address": "1450 Washington Blvd, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-029",
+      "evt-179"
+    ],
+    "relatedIndividualIds": [
+      "ind-007",
+      "ind-051",
+      "ind-031",
+      "ind-079",
+      "ind-066"
+    ],
+    "caseIds": [
+      "case-005"
+    ]
+  },
+  {
+    "id": "loc-030",
+    "name": "5346 Jefferson St",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.21700242599883,
+      "longitude": -111.02469901162561
+    },
+    "address": "5346 Jefferson St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-030",
+      "evt-180"
+    ],
+    "relatedIndividualIds": [
+      "ind-018",
+      "ind-044",
+      "ind-013",
+      "ind-022",
+      "ind-051",
+      "ind-028"
+    ],
+    "caseIds": [
+      "case-002",
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-031",
+    "name": "6685 Industrial Blvd",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.342867465628096,
+      "longitude": -111.96025440004051
+    },
+    "address": "6685 Industrial Blvd, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-031",
+      "evt-181"
+    ],
+    "relatedIndividualIds": [
+      "ind-025",
+      "ind-014",
+      "ind-040",
+      "ind-098",
+      "ind-052"
+    ],
+    "caseIds": [
+      "case-013",
+      "case-007",
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-032",
+    "name": "Desert Auto Parts",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.13228172292669,
+      "longitude": -118.27717565811732
+    },
+    "address": "9996 Broadway, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-032",
+      "evt-182"
+    ],
+    "relatedIndividualIds": [
+      "ind-066",
+      "ind-006",
+      "ind-012",
+      "ind-055"
+    ],
+    "caseIds": [
+      "case-009",
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-033",
+    "name": "738 Jefferson St",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.1033647458553,
+      "longitude": -110.98277350980621
+    },
+    "address": "738 Jefferson St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-033",
+      "evt-183"
+    ],
+    "relatedIndividualIds": [
+      "ind-018",
+      "ind-012",
+      "ind-025",
+      "ind-022",
+      "ind-013"
+    ],
+    "caseIds": [
+      "case-011",
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-034",
+    "name": "692 Commerce Way",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.316387492597634,
+      "longitude": -111.99668232711976
+    },
+    "address": "692 Commerce Way, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-034",
+      "evt-184"
+    ],
+    "relatedIndividualIds": [
+      "ind-041",
+      "ind-059",
+      "ind-067",
+      "ind-031"
+    ],
+    "caseIds": [
+      "case-013",
+      "case-008",
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-035",
+    "name": "8343 Oak Ave",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.01761886088249,
+      "longitude": -118.20892893192399
+    },
+    "address": "8343 Oak Ave, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-035",
+      "evt-185"
+    ],
+    "relatedIndividualIds": [
+      "ind-094",
+      "ind-039",
+      "ind-023",
+      "ind-081",
+      "ind-050"
+    ],
+    "caseIds": [
+      "case-014",
+      "case-007"
+    ]
+  },
+  {
+    "id": "loc-036",
+    "name": "3599 Oak Ave",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.1329474389726,
+      "longitude": -110.91780288613441
+    },
+    "address": "3599 Oak Ave, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-036",
+      "evt-186"
+    ],
+    "relatedIndividualIds": [
+      "ind-012",
+      "ind-019",
+      "ind-073",
+      "ind-066",
+      "ind-007",
+      "ind-001",
+      "ind-062",
+      "ind-033"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-005",
+      "case-007"
+    ]
+  },
+  {
+    "id": "loc-037",
+    "name": "Crime Scene #37",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.45911645714431,
+      "longitude": -112.04989154700681
+    },
+    "address": "7280 Cactus Dr, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-037",
+      "evt-187"
+    ],
+    "relatedIndividualIds": [
+      "ind-014",
+      "ind-003",
+      "ind-015",
+      "ind-023",
+      "ind-050"
+    ],
+    "caseIds": [
+      "case-007",
+      "case-014",
+      "case-003"
+    ]
+  },
+  {
+    "id": "loc-038",
+    "name": "8002 Broadway",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.11945594269585,
+      "longitude": -118.37799828264465
+    },
+    "address": "8002 Broadway, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-038",
+      "evt-188"
+    ],
+    "relatedIndividualIds": [
+      "ind-027",
+      "ind-050",
+      "ind-017",
+      "ind-033",
+      "ind-014",
+      "ind-078",
+      "ind-023"
+    ],
+    "caseIds": [
+      "case-007",
+      "case-015"
+    ]
+  },
+  {
+    "id": "loc-039",
+    "name": "3609 Palm Ave",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.08227329987629,
+      "longitude": -110.88113906312682
+    },
+    "address": "3609 Palm Ave, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-039",
+      "evt-189"
+    ],
+    "relatedIndividualIds": [
+      "ind-016",
+      "ind-069",
+      "ind-040",
+      "ind-087",
+      "ind-019",
+      "ind-018"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-013"
+    ]
+  },
+  {
+    "id": "loc-040",
+    "name": "4419 Industrial Blvd",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.5284205248614,
+      "longitude": -112.10154373399017
+    },
+    "address": "4419 Industrial Blvd, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-040",
+      "evt-190"
+    ],
+    "relatedIndividualIds": [
+      "ind-023",
+      "ind-083",
+      "ind-046",
+      "ind-015"
+    ],
+    "caseIds": [
+      "case-002"
+    ]
+  },
+  {
+    "id": "loc-041",
+    "name": "Valley Electronics",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.09353190636013,
+      "longitude": -118.29689892618892
+    },
+    "address": "890 Washington Blvd, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-041",
+      "evt-191"
+    ],
+    "relatedIndividualIds": [
+      "ind-011",
+      "ind-036",
+      "ind-070",
+      "ind-024"
+    ],
+    "caseIds": [
+      "case-008",
+      "case-009"
+    ]
+  },
+  {
+    "id": "loc-042",
+    "name": "6016 Roosevelt Dr",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.23836158284037,
+      "longitude": -110.86526637884715
+    },
+    "address": "6016 Roosevelt Dr, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-042",
+      "evt-192"
+    ],
+    "relatedIndividualIds": [
+      "ind-015",
+      "ind-028",
+      "ind-040",
+      "ind-019",
+      "ind-025"
+    ],
+    "caseIds": [
+      "case-014",
+      "case-013",
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-043",
+    "name": "8962 Lincoln Ave",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.32111539507887,
+      "longitude": -111.99164084672017
+    },
+    "address": "8962 Lincoln Ave, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-043",
+      "evt-193"
+    ],
+    "relatedIndividualIds": [
+      "ind-021",
+      "ind-048",
+      "ind-025"
+    ],
+    "caseIds": [
+      "case-005",
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-044",
+    "name": "382 Jefferson St",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.066937476636284,
+      "longitude": -118.29403358824756
+    },
+    "address": "382 Jefferson St, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-044",
+      "evt-194"
+    ],
+    "relatedIndividualIds": [
+      "ind-084",
+      "ind-067",
+      "ind-045",
+      "ind-029"
+    ],
+    "caseIds": [
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-045",
+    "name": "1072 Main St",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.23640453340739,
+      "longitude": -111.09722032919488
+    },
+    "address": "1072 Main St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-045",
+      "evt-195"
+    ],
+    "relatedIndividualIds": [
+      "ind-088",
+      "ind-021",
+      "ind-027"
+    ],
+    "caseIds": [
+      "case-015"
+    ]
+  },
+  {
+    "id": "loc-046",
+    "name": "Crime Scene #46",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.41866626541084,
+      "longitude": -112.1958943918826
+    },
+    "address": "2791 Central Ave, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-046",
+      "evt-196"
+    ],
+    "relatedIndividualIds": [
+      "ind-019",
+      "ind-100",
+      "ind-018",
+      "ind-087",
+      "ind-069"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-013"
+    ]
+  },
+  {
+    "id": "loc-047",
+    "name": "2873 Main St",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.028381941768465,
+      "longitude": -118.23171240616705
+    },
+    "address": "2873 Main St, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-047",
+      "evt-197"
+    ],
+    "relatedIndividualIds": [
+      "ind-018"
+    ],
+    "caseIds": [
+      "case-013"
+    ]
+  },
+  {
+    "id": "loc-048",
+    "name": "1680 Main St",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.27174136078839,
+      "longitude": -110.95006303141884
+    },
+    "address": "1680 Main St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-048",
+      "evt-198"
+    ],
+    "relatedIndividualIds": [
+      "ind-044",
+      "ind-011",
+      "ind-080",
+      "ind-087"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-006",
+      "case-015"
+    ]
+  },
+  {
+    "id": "loc-049",
+    "name": "4885 Commerce Way",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.34746789251624,
+      "longitude": -112.00649406468186
+    },
+    "address": "4885 Commerce Way, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-049",
+      "evt-199"
+    ],
+    "relatedIndividualIds": [
+      "ind-026",
+      "ind-003"
+    ],
+    "caseIds": [
+      "case-012"
+    ]
+  },
+  {
+    "id": "loc-050",
+    "name": "Tucson Logistics",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.03947456195553,
+      "longitude": -118.12262801123673
+    },
+    "address": "1123 Roosevelt Dr, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-050",
+      "evt-200"
+    ],
+    "relatedIndividualIds": [
+      "ind-065",
+      "ind-081",
+      "ind-050"
+    ],
+    "caseIds": [
+      "case-007"
+    ]
+  },
+  {
+    "id": "loc-051",
+    "name": "6779 Washington Blvd",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.09286778313961,
+      "longitude": -110.90277105752139
+    },
+    "address": "6779 Washington Blvd, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-051",
+      "evt-201"
+    ],
+    "relatedIndividualIds": [
+      "ind-098",
+      "ind-011",
+      "ind-100",
+      "ind-025"
+    ],
+    "caseIds": [
+      "case-013",
+      "case-001",
+      "case-010"
+    ]
+  },
+  {
+    "id": "loc-052",
+    "name": "4737 Cedar Ln",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.39647068748402,
+      "longitude": -111.98816409969103
+    },
+    "address": "4737 Cedar Ln, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-052",
+      "evt-202"
+    ],
+    "relatedIndividualIds": [
+      "ind-033",
+      "ind-064",
+      "ind-013",
+      "ind-035",
+      "ind-037"
+    ],
+    "caseIds": [
+      "case-011",
+      "case-012",
+      "case-007"
+    ]
+  },
+  {
+    "id": "loc-053",
+    "name": "3267 Washington Blvd",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.01079145688674,
+      "longitude": -118.32141385981912
+    },
+    "address": "3267 Washington Blvd, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-053",
+      "evt-203"
+    ],
+    "relatedIndividualIds": [
+      "ind-066",
+      "ind-006",
+      "ind-079",
+      "ind-020"
+    ],
+    "caseIds": [
+      "case-015"
+    ]
+  },
+  {
+    "id": "loc-054",
+    "name": "4580 Sunset Blvd",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.12713823645839,
+      "longitude": -111.0935648864075
+    },
+    "address": "4580 Sunset Blvd, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-054",
+      "evt-204"
+    ],
+    "relatedIndividualIds": [
+      "ind-098",
+      "ind-042",
+      "ind-015"
+    ],
+    "caseIds": [
+      "case-014"
+    ]
+  },
+  {
+    "id": "loc-055",
+    "name": "Crime Scene #55",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.48165121586438,
+      "longitude": -111.94219511572973
+    },
+    "address": "4747 Oak Ave, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-055",
+      "evt-205"
+    ],
+    "relatedIndividualIds": [
+      "ind-005",
+      "ind-090",
+      "ind-004",
+      "ind-007",
+      "ind-047"
+    ],
+    "caseIds": [
+      "case-005",
+      "case-011",
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-056",
+    "name": "3785 Cactus Dr",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 33.993457600063635,
+      "longitude": -118.12165707622614
+    },
+    "address": "3785 Cactus Dr, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-056",
+      "evt-206"
+    ],
+    "relatedIndividualIds": [
+      "ind-012",
+      "ind-054",
+      "ind-002"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-008",
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-057",
+    "name": "3289 Elm St",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.32650029262705,
+      "longitude": -110.84768346158086
+    },
+    "address": "3289 Elm St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-057",
+      "evt-207"
+    ],
+    "relatedIndividualIds": [
+      "ind-037",
+      "ind-028",
+      "ind-099",
+      "ind-098",
+      "ind-018",
+      "ind-100",
+      "ind-019"
+    ],
+    "caseIds": [
+      "case-013"
+    ]
+  },
+  {
+    "id": "loc-058",
+    "name": "3851 Market St",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.590555323975444,
+      "longitude": -111.98697694528884
+    },
+    "address": "3851 Market St, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-058",
+      "evt-208"
+    ],
+    "relatedIndividualIds": [
+      "ind-032",
+      "ind-038",
+      "ind-088",
+      "ind-059",
+      "ind-016",
+      "ind-068",
+      "ind-034"
+    ],
+    "caseIds": [
+      "case-015",
+      "case-008",
+      "case-009"
+    ]
+  },
+  {
+    "id": "loc-059",
+    "name": "Phoenix Imports",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.152944716288765,
+      "longitude": -118.27902790894639
+    },
+    "address": "4542 Broadway, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-059",
+      "evt-209"
+    ],
+    "relatedIndividualIds": [
+      "ind-095",
+      "ind-080",
+      "ind-034",
+      "ind-047"
+    ],
+    "caseIds": [
+      "case-009",
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-060",
+    "name": "7979 Commerce Way",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.104742637103094,
+      "longitude": -110.99930146345449
+    },
+    "address": "7979 Commerce Way, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-060",
+      "evt-210"
+    ],
+    "relatedIndividualIds": [
+      "ind-020",
+      "ind-051"
+    ],
+    "caseIds": [
+      "case-010",
+      "case-014",
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-061",
+    "name": "3753 Park Ave",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.34708428322143,
+      "longitude": -112.21264229185603
+    },
+    "address": "3753 Park Ave, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-061",
+      "evt-211"
+    ],
+    "relatedIndividualIds": [
+      "ind-029",
+      "ind-049",
+      "ind-051",
+      "ind-048"
+    ],
+    "caseIds": [
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-062",
+    "name": "7013 Broadway",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 33.9364305336308,
+      "longitude": -118.23076271760564
+    },
+    "address": "7013 Broadway, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-062",
+      "evt-212"
+    ],
+    "relatedIndividualIds": [
+      "ind-016",
+      "ind-028",
+      "ind-003",
+      "ind-019",
+      "ind-040"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-013"
+    ]
+  },
+  {
+    "id": "loc-063",
+    "name": "9978 Pine Rd",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.28333771558531,
+      "longitude": -110.91496382021396
+    },
+    "address": "9978 Pine Rd, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-063",
+      "evt-213"
+    ],
+    "relatedIndividualIds": [
+      "ind-064",
+      "ind-068",
+      "ind-100",
+      "ind-071",
+      "ind-001",
+      "ind-031"
+    ],
+    "caseIds": [
+      "case-008"
+    ]
+  },
+  {
+    "id": "loc-064",
+    "name": "Crime Scene #64",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.46941171001705,
+      "longitude": -111.959443117608
+    },
+    "address": "8478 Central Ave, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-064",
+      "evt-214"
+    ],
+    "relatedIndividualIds": [
+      "ind-037",
+      "ind-018",
+      "ind-040",
+      "ind-019"
+    ],
+    "caseIds": [
+      "case-013"
+    ]
+  },
+  {
+    "id": "loc-065",
+    "name": "3905 Pine Rd",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.13009829909651,
+      "longitude": -118.23698892594291
+    },
+    "address": "3905 Pine Rd, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-065",
+      "evt-215"
+    ],
+    "relatedIndividualIds": [
+      "ind-094",
+      "ind-002",
+      "ind-051",
+      "ind-024"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-002"
+    ]
+  },
+  {
+    "id": "loc-066",
+    "name": "3961 Broadway",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.34750788931541,
+      "longitude": -110.91058415933446
+    },
+    "address": "3961 Broadway, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-066",
+      "evt-216"
+    ],
+    "relatedIndividualIds": [
+      "ind-056",
+      "ind-024",
+      "ind-044",
+      "ind-077",
+      "ind-080"
+    ],
+    "caseIds": [
+      "case-010",
+      "case-001",
+      "case-012"
+    ]
+  },
+  {
+    "id": "loc-067",
+    "name": "1165 Central Ave",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.485143664315174,
+      "longitude": -112.16947082735334
+    },
+    "address": "1165 Central Ave, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-067",
+      "evt-217"
+    ],
+    "relatedIndividualIds": [
+      "ind-004",
+      "ind-001"
+    ],
+    "caseIds": [
+      "case-005",
+      "case-008"
+    ]
+  },
+  {
+    "id": "loc-068",
+    "name": "Valley Electronics",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.055392325322245,
+      "longitude": -118.10258000119589
+    },
+    "address": "5174 Central Ave, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-068",
+      "evt-218"
+    ],
+    "relatedIndividualIds": [
+      "ind-018",
+      "ind-092",
+      "ind-044",
+      "ind-035",
+      "ind-048",
+      "ind-075",
+      "ind-096"
+    ],
+    "caseIds": [
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-069",
+    "name": "7701 Cedar Ln",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.201546594359776,
+      "longitude": -110.9917894069978
+    },
+    "address": "7701 Cedar Ln, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-069",
+      "evt-219"
+    ],
+    "relatedIndividualIds": [
+      "ind-062",
+      "ind-024",
+      "ind-007",
+      "ind-053",
+      "ind-097",
+      "ind-012"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-002",
+      "case-013"
+    ]
+  },
+  {
+    "id": "loc-070",
+    "name": "4813 Jefferson St",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.506022838694804,
+      "longitude": -111.97938944346878
+    },
+    "address": "4813 Jefferson St, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-070",
+      "evt-220"
+    ],
+    "relatedIndividualIds": [
+      "ind-029",
+      "ind-025",
+      "ind-005",
+      "ind-090"
+    ],
+    "caseIds": [
+      "case-002",
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-071",
+    "name": "6491 Park Ave",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 33.91815492816018,
+      "longitude": -118.23384932000509
+    },
+    "address": "6491 Park Ave, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-071",
+      "evt-221"
+    ],
+    "relatedIndividualIds": [
+      "ind-025",
+      "ind-075",
+      "ind-092",
+      "ind-069"
+    ],
+    "caseIds": [
+      "case-012",
+      "case-013",
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-072",
+    "name": "1384 Oak Ave",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.14093549872692,
+      "longitude": -110.9288405794701
+    },
+    "address": "1384 Oak Ave, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-072",
+      "evt-222"
+    ],
+    "relatedIndividualIds": [
+      "ind-049",
+      "ind-048",
+      "ind-029",
+      "ind-006",
+      "ind-084"
+    ],
+    "caseIds": [
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-073",
+    "name": "Crime Scene #73",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.47113982499352,
+      "longitude": -112.0868440286149
+    },
+    "address": "7563 Central Ave, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-073",
+      "evt-223"
+    ],
+    "relatedIndividualIds": [
+      "ind-039",
+      "ind-009"
+    ],
+    "caseIds": [
+      "case-012"
+    ]
+  },
+  {
+    "id": "loc-074",
+    "name": "2120 Cactus Dr",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.12318496225262,
+      "longitude": -118.35958376809734
+    },
+    "address": "2120 Cactus Dr, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-074",
+      "evt-224"
+    ],
+    "relatedIndividualIds": [
+      "ind-067",
+      "ind-006",
+      "ind-045",
+      "ind-029",
+      "ind-048",
+      "ind-017",
+      "ind-020"
+    ],
+    "caseIds": [
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-075",
+    "name": "4873 Cactus Dr",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.26349467874228,
+      "longitude": -111.07708429393035
+    },
+    "address": "4873 Cactus Dr, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-075",
+      "evt-225"
+    ],
+    "relatedIndividualIds": [
+      "ind-097",
+      "ind-070",
+      "ind-083",
+      "ind-017",
+      "ind-016",
+      "ind-095",
+      "ind-058",
+      "ind-033"
+    ],
+    "caseIds": [
+      "case-009",
+      "case-007",
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-076",
+    "name": "9233 Palm Ave",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.45090418495809,
+      "longitude": -111.96344604330912
+    },
+    "address": "9233 Palm Ave, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-076",
+      "evt-226"
+    ],
+    "relatedIndividualIds": [
+      "ind-031",
+      "ind-018",
+      "ind-045",
+      "ind-098",
+      "ind-063"
+    ],
+    "caseIds": [
+      "case-002",
+      "case-013",
+      "case-008"
+    ]
+  },
+  {
+    "id": "loc-077",
+    "name": "LA Tech Solutions",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.04180841083968,
+      "longitude": -118.33174207141482
+    },
+    "address": "3097 Market St, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-077",
+      "evt-227"
+    ],
+    "relatedIndividualIds": [
+      "ind-030",
+      "ind-011",
+      "ind-091",
+      "ind-055"
+    ],
+    "caseIds": [
+      "case-009",
+      "case-014",
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-078",
+    "name": "2596 Central Ave",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.31509355970771,
+      "longitude": -110.87165414012007
+    },
+    "address": "2596 Central Ave, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-078",
+      "evt-228"
+    ],
+    "relatedIndividualIds": [
+      "ind-097",
+      "ind-023",
+      "ind-082",
+      "ind-051",
+      "ind-066",
+      "ind-002"
+    ],
+    "caseIds": [
+      "case-005",
+      "case-002"
+    ]
+  },
+  {
+    "id": "loc-079",
+    "name": "2184 Industrial Blvd",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.32665416745932,
+      "longitude": -112.11103523778802
+    },
+    "address": "2184 Industrial Blvd, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-079",
+      "evt-229"
+    ],
+    "relatedIndividualIds": [
+      "ind-090",
+      "ind-005",
+      "ind-068",
+      "ind-097"
+    ],
+    "caseIds": [
+      "case-006",
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-080",
+    "name": "6321 Broadway",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.16566365196203,
+      "longitude": -118.123865820725
+    },
+    "address": "6321 Broadway, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-080",
+      "evt-230"
+    ],
+    "relatedIndividualIds": [
+      "ind-057",
+      "ind-008",
+      "ind-016",
+      "ind-055",
+      "ind-052"
+    ],
+    "caseIds": [
+      "case-007",
+      "case-009"
+    ]
+  },
+  {
+    "id": "loc-081",
+    "name": "3820 Industrial Blvd",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.16925748184457,
+      "longitude": -110.8566808005525
+    },
+    "address": "3820 Industrial Blvd, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-081",
+      "evt-231"
+    ],
+    "relatedIndividualIds": [
+      "ind-035",
+      "ind-060",
+      "ind-058",
+      "ind-025",
+      "ind-014",
+      "ind-067"
+    ],
+    "caseIds": [
+      "case-006",
+      "case-007"
+    ]
+  },
+  {
+    "id": "loc-082",
+    "name": "Crime Scene #82",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.36054623260242,
+      "longitude": -112.19419455821428
+    },
+    "address": "3084 Broadway, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-082",
+      "evt-232"
+    ],
+    "relatedIndividualIds": [
+      "ind-001",
+      "ind-010",
+      "ind-042",
+      "ind-050"
+    ],
+    "caseIds": [
+      "case-014",
+      "case-008",
+      "case-010"
+    ]
+  },
+  {
+    "id": "loc-083",
+    "name": "2003 Lincoln Ave",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.0151534283789,
+      "longitude": -118.25662560118332
+    },
+    "address": "2003 Lincoln Ave, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-083",
+      "evt-233"
+    ],
+    "relatedIndividualIds": [
+      "ind-074",
+      "ind-005",
+      "ind-096",
+      "ind-006"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-001",
+      "case-005"
+    ]
+  },
+  {
+    "id": "loc-084",
+    "name": "5385 Oak Ave",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.14724280214169,
+      "longitude": -110.96597648249625
+    },
+    "address": "5385 Oak Ave, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-084",
+      "evt-234"
+    ],
+    "relatedIndividualIds": [
+      "ind-027",
+      "ind-084",
+      "ind-022",
+      "ind-068",
+      "ind-079",
+      "ind-006",
+      "ind-066"
+    ],
+    "caseIds": [
+      "case-015",
+      "case-004",
+      "case-010"
+    ]
+  },
+  {
+    "id": "loc-085",
+    "name": "5691 Commerce Way",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.35010506274864,
+      "longitude": -112.11317522884616
+    },
+    "address": "5691 Commerce Way, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-085",
+      "evt-235"
+    ],
+    "relatedIndividualIds": [
+      "ind-013",
+      "ind-046",
+      "ind-031",
+      "ind-053",
+      "ind-062"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-005",
+      "case-002"
+    ]
+  },
+  {
+    "id": "loc-086",
+    "name": "Southwest Trading Co",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.06105878691267,
+      "longitude": -118.18969492476126
+    },
+    "address": "4655 Broadway, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-086",
+      "evt-236"
+    ],
+    "relatedIndividualIds": [
+      "ind-005",
+      "ind-042",
+      "ind-082",
+      "ind-001",
+      "ind-073"
+    ],
+    "caseIds": [
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-087",
+    "name": "5967 Roosevelt Dr",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.22742059596007,
+      "longitude": -110.92376880065362
+    },
+    "address": "5967 Roosevelt Dr, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-087",
+      "evt-237"
+    ],
+    "relatedIndividualIds": [
+      "ind-019",
+      "ind-014",
+      "ind-088",
+      "ind-058",
+      "ind-032"
+    ],
+    "caseIds": [
+      "case-015",
+      "case-010",
+      "case-007"
+    ]
+  },
+  {
+    "id": "loc-088",
+    "name": "8507 Central Ave",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.40180141120521,
+      "longitude": -112.20894755939692
+    },
+    "address": "8507 Central Ave, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-088",
+      "evt-238"
+    ],
+    "relatedIndividualIds": [
+      "ind-006",
+      "ind-027",
+      "ind-032",
+      "ind-078"
+    ],
+    "caseIds": [
+      "case-015"
+    ]
+  },
+  {
+    "id": "loc-089",
+    "name": "8859 Elm St",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.06138990523091,
+      "longitude": -118.28529336311979
+    },
+    "address": "8859 Elm St, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-089",
+      "evt-239"
+    ],
+    "relatedIndividualIds": [
+      "ind-084",
+      "ind-072",
+      "ind-043",
+      "ind-006",
+      "ind-088",
+      "ind-087"
+    ],
+    "caseIds": [
+      "case-006",
+      "case-011",
+      "case-015"
+    ]
+  },
+  {
+    "id": "loc-090",
+    "name": "5999 Sunset Blvd",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.23110552195961,
+      "longitude": -110.9678301464389
+    },
+    "address": "5999 Sunset Blvd, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-090",
+      "evt-240"
+    ],
+    "relatedIndividualIds": [
+      "ind-079",
+      "ind-031",
+      "ind-007",
+      "ind-004",
+      "ind-097"
+    ],
+    "caseIds": [
+      "case-005"
+    ]
+  },
+  {
+    "id": "loc-091",
+    "name": "Crime Scene #91",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.34843514535488,
+      "longitude": -112.18314660837824
+    },
+    "address": "4240 Elm St, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-091",
+      "evt-241"
+    ],
+    "relatedIndividualIds": [
+      "ind-008",
+      "ind-034",
+      "ind-016",
+      "ind-070",
+      "ind-091"
+    ],
+    "caseIds": [
+      "case-009"
+    ]
+  },
+  {
+    "id": "loc-092",
+    "name": "9334 Market St",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.06535367084303,
+      "longitude": -118.24654512686517
+    },
+    "address": "9334 Market St, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-092",
+      "evt-242"
+    ],
+    "relatedIndividualIds": [
+      "ind-064",
+      "ind-020",
+      "ind-057",
+      "ind-048"
+    ],
+    "caseIds": [
+      "case-012",
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-093",
+    "name": "5173 Pine Rd",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.27847072217599,
+      "longitude": -111.03909692788754
+    },
+    "address": "5173 Pine Rd, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-093",
+      "evt-243"
+    ],
+    "relatedIndividualIds": [
+      "ind-006",
+      "ind-004",
+      "ind-020",
+      "ind-029",
+      "ind-052",
+      "ind-085",
+      "ind-084"
+    ],
+    "caseIds": [
+      "case-004",
+      "case-005"
+    ]
+  },
+  {
+    "id": "loc-094",
+    "name": "5969 Main St",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.579985305035216,
+      "longitude": -112.19054888516136
+    },
+    "address": "5969 Main St, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-094",
+      "evt-244"
+    ],
+    "relatedIndividualIds": [
+      "ind-082",
+      "ind-015",
+      "ind-013",
+      "ind-003",
+      "ind-026"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-002"
+    ]
+  },
+  {
+    "id": "loc-095",
+    "name": "Sun City Warehouse",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 33.99964901520423,
+      "longitude": -118.35154604114815
+    },
+    "address": "8228 Jefferson St, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-095",
+      "evt-245"
+    ],
+    "relatedIndividualIds": [
+      "ind-006",
+      "ind-032"
+    ],
+    "caseIds": [
+      "case-006",
+      "case-015"
+    ]
+  },
+  {
+    "id": "loc-096",
+    "name": "7274 Park Ave",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.33406123895368,
+      "longitude": -110.91050344360143
+    },
+    "address": "7274 Park Ave, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-096",
+      "evt-246"
+    ],
+    "relatedIndividualIds": [
+      "ind-052",
+      "ind-051",
+      "ind-096",
+      "ind-031",
+      "ind-066"
+    ],
+    "caseIds": [
+      "case-005"
+    ]
+  },
+  {
+    "id": "loc-097",
+    "name": "3756 Lincoln Ave",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.32385823052797,
+      "longitude": -112.02745861278667
+    },
+    "address": "3756 Lincoln Ave, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-097",
+      "evt-247"
+    ],
+    "relatedIndividualIds": [
+      "ind-050",
+      "ind-030",
+      "ind-087",
+      "ind-015",
+      "ind-033"
+    ],
+    "caseIds": [
+      "case-014"
+    ]
+  },
+  {
+    "id": "loc-098",
+    "name": "1198 Cactus Dr",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.022303662745145,
+      "longitude": -118.35462613005319
+    },
+    "address": "1198 Cactus Dr, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-098",
+      "evt-248"
+    ],
+    "relatedIndividualIds": [
+      "ind-022",
+      "ind-028",
+      "ind-035",
+      "ind-018",
+      "ind-044",
+      "ind-092"
+    ],
+    "caseIds": [
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-099",
+    "name": "4166 Pine Rd",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.28211820927015,
+      "longitude": -110.82692421476547
+    },
+    "address": "4166 Pine Rd, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-099",
+      "evt-249"
+    ],
+    "relatedIndividualIds": [
+      "ind-064",
+      "ind-033",
+      "ind-021",
+      "ind-052",
+      "ind-045",
+      "ind-014"
+    ],
+    "caseIds": [
+      "case-006",
+      "case-007",
+      "case-010"
+    ]
+  },
+  {
+    "id": "loc-100",
+    "name": "Crime Scene #100",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.399710381757565,
+      "longitude": -111.95081988834343
+    },
+    "address": "9426 Commerce Way, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-100",
+      "evt-250"
+    ],
+    "relatedIndividualIds": [
+      "ind-028",
+      "ind-075",
+      "ind-025",
+      "ind-022",
+      "ind-059",
+      "ind-021"
+    ],
+    "caseIds": [
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-101",
+    "name": "4760 Elm St",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.0569059146761,
+      "longitude": -118.16442218533346
+    },
+    "address": "4760 Elm St, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-101",
+      "evt-251"
+    ],
+    "relatedIndividualIds": [
+      "ind-020",
+      "ind-029",
+      "ind-051",
+      "ind-048"
+    ],
+    "caseIds": [
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-102",
+    "name": "6523 Commerce Way",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.15488893680498,
+      "longitude": -111.00561727227262
+    },
+    "address": "6523 Commerce Way, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-102",
+      "evt-252"
+    ],
+    "relatedIndividualIds": [
+      "ind-052",
+      "ind-097",
+      "ind-012",
+      "ind-046"
+    ],
+    "caseIds": [
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-103",
+    "name": "7849 Jefferson St",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.47858275255395,
+      "longitude": -111.95322590581506
+    },
+    "address": "7849 Jefferson St, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-103",
+      "evt-253"
+    ],
+    "relatedIndividualIds": [
+      "ind-012",
+      "ind-015",
+      "ind-052",
+      "ind-100",
+      "ind-083"
+    ],
+    "caseIds": [
+      "case-011",
+      "case-005",
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-104",
+    "name": "Southwest Trading Co",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.18881627727871,
+      "longitude": -118.21870486028024
+    },
+    "address": "6476 Elm St, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-104",
+      "evt-254"
+    ],
+    "relatedIndividualIds": [
+      "ind-094",
+      "ind-003",
+      "ind-024",
+      "ind-018",
+      "ind-016"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-010"
+    ]
+  },
+  {
+    "id": "loc-105",
+    "name": "4432 Cactus Dr",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.33871797403653,
+      "longitude": -110.94729182386283
+    },
+    "address": "4432 Cactus Dr, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-105",
+      "evt-255"
+    ],
+    "relatedIndividualIds": [
+      "ind-012",
+      "ind-047",
+      "ind-025",
+      "ind-015",
+      "ind-097",
+      "ind-038"
+    ],
+    "caseIds": [
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-106",
+    "name": "2724 Roosevelt Dr",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.57255355414446,
+      "longitude": -112.12434081765797
+    },
+    "address": "2724 Roosevelt Dr, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-106",
+      "evt-256"
+    ],
+    "relatedIndividualIds": [
+      "ind-008",
+      "ind-070",
+      "ind-091"
+    ],
+    "caseIds": [
+      "case-010",
+      "case-009"
+    ]
+  },
+  {
+    "id": "loc-107",
+    "name": "9553 Lincoln Ave",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 33.94259377205585,
+      "longitude": -118.28762380385544
+    },
+    "address": "9553 Lincoln Ave, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-107",
+      "evt-257"
+    ],
+    "relatedIndividualIds": [
+      "ind-090",
+      "ind-017",
+      "ind-001",
+      "ind-007"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-007",
+      "case-012"
+    ]
+  },
+  {
+    "id": "loc-108",
+    "name": "2948 Sunset Blvd",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.086647832616755,
+      "longitude": -111.0071163233774
+    },
+    "address": "2948 Sunset Blvd, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-108",
+      "evt-258"
+    ],
+    "relatedIndividualIds": [
+      "ind-006",
+      "ind-011",
+      "ind-005",
+      "ind-073",
+      "ind-084"
+    ],
+    "caseIds": [
+      "case-011",
+      "case-001",
+      "case-012"
+    ]
+  },
+  {
+    "id": "loc-109",
+    "name": "Crime Scene #109",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.3495605589536,
+      "longitude": -111.9962932389015
+    },
+    "address": "6459 Washington Blvd, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-109",
+      "evt-259"
+    ],
+    "relatedIndividualIds": [
+      "ind-024",
+      "ind-007",
+      "ind-006"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-009",
+      "case-002"
+    ]
+  },
+  {
+    "id": "loc-110",
+    "name": "8854 Sunset Blvd",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 33.994096678206624,
+      "longitude": -118.24723970156597
+    },
+    "address": "8854 Sunset Blvd, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-110",
+      "evt-260"
+    ],
+    "relatedIndividualIds": [
+      "ind-019",
+      "ind-018",
+      "ind-040",
+      "ind-069",
+      "ind-003"
+    ],
+    "caseIds": [
+      "case-015",
+      "case-003",
+      "case-013"
+    ]
+  },
+  {
+    "id": "loc-111",
+    "name": "7681 Elm St",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.07834250261838,
+      "longitude": -110.994657108345
+    },
+    "address": "7681 Elm St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-111",
+      "evt-261"
+    ],
+    "relatedIndividualIds": [
+      "ind-020",
+      "ind-088"
+    ],
+    "caseIds": [
+      "case-015",
+      "case-004",
+      "case-014"
+    ]
+  },
+  {
+    "id": "loc-112",
+    "name": "9788 Industrial Blvd",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.531352950393625,
+      "longitude": -112.04168517629867
+    },
+    "address": "9788 Industrial Blvd, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-112",
+      "evt-262"
+    ],
+    "relatedIndividualIds": [
+      "ind-070",
+      "ind-007",
+      "ind-012",
+      "ind-097",
+      "ind-051",
+      "ind-004"
+    ],
+    "caseIds": [
+      "case-005",
+      "case-009"
+    ]
+  },
+  {
+    "id": "loc-113",
+    "name": "Tucson Logistics",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.190947341061374,
+      "longitude": -118.29404889555084
+    },
+    "address": "6966 Roosevelt Dr, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-113",
+      "evt-263"
+    ],
+    "relatedIndividualIds": [
+      "ind-047",
+      "ind-029",
+      "ind-100",
+      "ind-083",
+      "ind-058",
+      "ind-080",
+      "ind-011"
+    ],
+    "caseIds": [
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-114",
+    "name": "7848 Elm St",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.13218747414007,
+      "longitude": -110.88884051391521
+    },
+    "address": "7848 Elm St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-114",
+      "evt-264"
+    ],
+    "relatedIndividualIds": [
+      "ind-010",
+      "ind-038",
+      "ind-089",
+      "ind-076",
+      "ind-025",
+      "ind-001",
+      "ind-057"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-008",
+      "case-009"
+    ]
+  },
+  {
+    "id": "loc-115",
+    "name": "8079 Industrial Blvd",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.34169682130601,
+      "longitude": -112.05982200600496
+    },
+    "address": "8079 Industrial Blvd, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-115",
+      "evt-265"
+    ],
+    "relatedIndividualIds": [
+      "ind-100",
+      "ind-052",
+      "ind-005",
+      "ind-007"
+    ],
+    "caseIds": [
+      "case-013",
+      "case-012",
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-116",
+    "name": "8173 Park Ave",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.09021010732673,
+      "longitude": -118.10083842397069
+    },
+    "address": "8173 Park Ave, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-116",
+      "evt-266"
+    ],
+    "relatedIndividualIds": [
+      "ind-031",
+      "ind-004",
+      "ind-045"
+    ],
+    "caseIds": [
+      "case-005",
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-117",
+    "name": "3506 Elm St",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.17563071893707,
+      "longitude": -110.90739163362278
+    },
+    "address": "3506 Elm St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-117",
+      "evt-267"
+    ],
+    "relatedIndividualIds": [
+      "ind-019",
+      "ind-028",
+      "ind-084",
+      "ind-037",
+      "ind-069",
+      "ind-100"
+    ],
+    "caseIds": [
+      "case-013"
+    ]
+  },
+  {
+    "id": "loc-118",
+    "name": "Crime Scene #118",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.52118754465035,
+      "longitude": -112.15641875515033
+    },
+    "address": "3224 Market St, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-118",
+      "evt-268"
+    ],
+    "relatedIndividualIds": [
+      "ind-021",
+      "ind-044",
+      "ind-028",
+      "ind-018",
+      "ind-025"
+    ],
+    "caseIds": [
+      "case-006",
+      "case-010",
+      "case-008"
+    ]
+  },
+  {
+    "id": "loc-119",
+    "name": "1267 Washington Blvd",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 33.98804962312064,
+      "longitude": -118.288969571645
+    },
+    "address": "1267 Washington Blvd, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-119",
+      "evt-269"
+    ],
+    "relatedIndividualIds": [
+      "ind-033",
+      "ind-050",
+      "ind-087",
+      "ind-030"
+    ],
+    "caseIds": [
+      "case-014"
+    ]
+  },
+  {
+    "id": "loc-120",
+    "name": "5658 Market St",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.17416504418477,
+      "longitude": -111.07873237547379
+    },
+    "address": "5658 Market St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-120",
+      "evt-270"
+    ],
+    "relatedIndividualIds": [
+      "ind-026",
+      "ind-023",
+      "ind-002",
+      "ind-086",
+      "ind-028"
+    ],
+    "caseIds": [
+      "case-006",
+      "case-002",
+      "case-010"
+    ]
+  },
+  {
+    "id": "loc-121",
+    "name": "3407 Main St",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.43695082463449,
+      "longitude": -112.02318623280924
+    },
+    "address": "3407 Main St, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-121",
+      "evt-271"
+    ],
+    "relatedIndividualIds": [
+      "ind-023",
+      "ind-052",
+      "ind-014",
+      "ind-067",
+      "ind-058"
+    ],
+    "caseIds": [
+      "case-007"
+    ]
+  },
+  {
+    "id": "loc-122",
+    "name": "Sun City Warehouse",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 33.91336863732708,
+      "longitude": -118.30724402624668
+    },
+    "address": "484 Cedar Ln, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-122",
+      "evt-272"
+    ],
+    "relatedIndividualIds": [
+      "ind-039",
+      "ind-003",
+      "ind-005",
+      "ind-040"
+    ],
+    "caseIds": [
+      "case-013",
+      "case-007",
+      "case-012"
+    ]
+  },
+  {
+    "id": "loc-123",
+    "name": "2891 Elm St",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.12664971196551,
+      "longitude": -110.93714839460146
+    },
+    "address": "2891 Elm St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-123",
+      "evt-273"
+    ],
+    "relatedIndividualIds": [
+      "ind-043",
+      "ind-012",
+      "ind-088",
+      "ind-013"
+    ],
+    "caseIds": [
+      "case-011"
+    ]
+  },
+  {
+    "id": "loc-124",
+    "name": "7928 Washington Blvd",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.493289683192586,
+      "longitude": -112.1530467058796
+    },
+    "address": "7928 Washington Blvd, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-124",
+      "evt-274"
+    ],
+    "relatedIndividualIds": [
+      "ind-003",
+      "ind-016",
+      "ind-037",
+      "ind-094"
+    ],
+    "caseIds": [
+      "case-003"
+    ]
+  },
+  {
+    "id": "loc-125",
+    "name": "3840 Main St",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.198248554800436,
+      "longitude": -118.34144607894045
+    },
+    "address": "3840 Main St, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-125",
+      "evt-275"
+    ],
+    "relatedIndividualIds": [
+      "ind-048",
+      "ind-088",
+      "ind-001",
+      "ind-031",
+      "ind-084"
+    ],
+    "caseIds": [
+      "case-006",
+      "case-008",
+      "case-011"
+    ]
+  },
+  {
+    "id": "loc-126",
+    "name": "4723 Cactus Dr",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.15591446232913,
+      "longitude": -110.9315656414582
+    },
+    "address": "4723 Cactus Dr, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-126",
+      "evt-276"
+    ],
+    "relatedIndividualIds": [
+      "ind-057",
+      "ind-056",
+      "ind-068",
+      "ind-031"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-008"
+    ]
+  },
+  {
+    "id": "loc-127",
+    "name": "Crime Scene #127",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.55962299405319,
+      "longitude": -112.1711062988264
+    },
+    "address": "1077 Roosevelt Dr, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-127",
+      "evt-277"
+    ],
+    "relatedIndividualIds": [
+      "ind-029",
+      "ind-048",
+      "ind-020",
+      "ind-084",
+      "ind-017"
+    ],
+    "caseIds": [
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-128",
+    "name": "4876 Broadway",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 33.956257176616916,
+      "longitude": -118.15933888362999
+    },
+    "address": "4876 Broadway, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-128",
+      "evt-278"
+    ],
+    "relatedIndividualIds": [
+      "ind-043",
+      "ind-003",
+      "ind-012",
+      "ind-035",
+      "ind-037"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-011"
+    ]
+  },
+  {
+    "id": "loc-129",
+    "name": "7075 Pine Rd",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.12712482002546,
+      "longitude": -111.05197669694748
+    },
+    "address": "7075 Pine Rd, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-129",
+      "evt-279"
+    ],
+    "relatedIndividualIds": [
+      "ind-029",
+      "ind-003",
+      "ind-045",
+      "ind-058",
+      "ind-064"
+    ],
+    "caseIds": [
+      "case-012",
+      "case-007",
+      "case-010"
+    ]
+  },
+  {
+    "id": "loc-130",
+    "name": "4676 Broadway",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.52101818069579,
+      "longitude": -112.12357338635334
+    },
+    "address": "4676 Broadway, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-130",
+      "evt-280"
+    ],
+    "relatedIndividualIds": [
+      "ind-004",
+      "ind-051",
+      "ind-052",
+      "ind-085"
+    ],
+    "caseIds": [
+      "case-005"
+    ]
+  },
+  {
+    "id": "loc-131",
+    "name": "LA Tech Solutions",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.05356282633079,
+      "longitude": -118.15994821034873
+    },
+    "address": "4373 Main St, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-131",
+      "evt-281"
+    ],
+    "relatedIndividualIds": [
+      "ind-089",
+      "ind-017",
+      "ind-001",
+      "ind-023"
+    ],
+    "caseIds": [
+      "case-008",
+      "case-007"
+    ]
+  },
+  {
+    "id": "loc-132",
+    "name": "398 Park Ave",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.091462927227866,
+      "longitude": -110.94649233276728
+    },
+    "address": "398 Park Ave, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-132",
+      "evt-282"
+    ],
+    "relatedIndividualIds": [
+      "ind-022",
+      "ind-016"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-010"
+    ]
+  },
+  {
+    "id": "loc-133",
+    "name": "3737 Roosevelt Dr",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.33930133896688,
+      "longitude": -112.00167255999033
+    },
+    "address": "3737 Roosevelt Dr, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-133",
+      "evt-283"
+    ],
+    "relatedIndividualIds": [
+      "ind-046",
+      "ind-014",
+      "ind-087",
+      "ind-007"
+    ],
+    "caseIds": [
+      "case-007",
+      "case-001",
+      "case-014"
+    ]
+  },
+  {
+    "id": "loc-134",
+    "name": "4298 Commerce Way",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.015136056019806,
+      "longitude": -118.35336026107501
+    },
+    "address": "4298 Commerce Way, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-134",
+      "evt-284"
+    ],
+    "relatedIndividualIds": [
+      "ind-059",
+      "ind-041",
+      "ind-100",
+      "ind-031"
+    ],
+    "caseIds": [
+      "case-008"
+    ]
+  },
+  {
+    "id": "loc-135",
+    "name": "3100 Roosevelt Dr",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.25022141562076,
+      "longitude": -110.84589536590605
+    },
+    "address": "3100 Roosevelt Dr, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-135",
+      "evt-285"
+    ],
+    "relatedIndividualIds": [
+      "ind-012",
+      "ind-073",
+      "ind-042",
+      "ind-083",
+      "ind-006"
+    ],
+    "caseIds": [
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-136",
+    "name": "Crime Scene #136",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.44057994861426,
+      "longitude": -112.13427284400221
+    },
+    "address": "7710 Park Ave, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-136",
+      "evt-286"
+    ],
+    "relatedIndividualIds": [
+      "ind-037",
+      "ind-019",
+      "ind-069",
+      "ind-087",
+      "ind-098",
+      "ind-093"
+    ],
+    "caseIds": [
+      "case-013"
+    ]
+  },
+  {
+    "id": "loc-137",
+    "name": "3715 Cactus Dr",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.119477359932304,
+      "longitude": -118.15442155312965
+    },
+    "address": "3715 Cactus Dr, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-137",
+      "evt-287"
+    ],
+    "relatedIndividualIds": [
+      "ind-044",
+      "ind-054",
+      "ind-077",
+      "ind-048",
+      "ind-064",
+      "ind-071",
+      "ind-075"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-006",
+      "case-008"
+    ]
+  },
+  {
+    "id": "loc-138",
+    "name": "8849 Sunset Blvd",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.36857131991215,
+      "longitude": -111.11820271123749
+    },
+    "address": "8849 Sunset Blvd, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-138",
+      "evt-288"
+    ],
+    "relatedIndividualIds": [
+      "ind-018",
+      "ind-044"
+    ],
+    "caseIds": [
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-139",
+    "name": "7983 Broadway",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.44207441353557,
+      "longitude": -112.01230829142777
+    },
+    "address": "7983 Broadway, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-139",
+      "evt-289"
+    ],
+    "relatedIndividualIds": [
+      "ind-081",
+      "ind-046",
+      "ind-090",
+      "ind-025",
+      "ind-074"
+    ],
+    "caseIds": [
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-140",
+    "name": "Valley Electronics",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 33.94559249163564,
+      "longitude": -118.35361360979995
+    },
+    "address": "5243 Cedar Ln, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-140",
+      "evt-290"
+    ],
+    "relatedIndividualIds": [
+      "ind-076",
+      "ind-043",
+      "ind-035",
+      "ind-088"
+    ],
+    "caseIds": [
+      "case-011"
+    ]
+  },
+  {
+    "id": "loc-141",
+    "name": "442 Market St",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.08137750063957,
+      "longitude": -110.90165680859612
+    },
+    "address": "442 Market St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-141",
+      "evt-291"
+    ],
+    "relatedIndividualIds": [
+      "ind-049",
+      "ind-029",
+      "ind-051",
+      "ind-084",
+      "ind-066",
+      "ind-006"
+    ],
+    "caseIds": [
+      "case-004"
+    ]
+  },
+  {
+    "id": "loc-142",
+    "name": "3589 Sunset Blvd",
+    "type": "vehicle_location",
+    "description": "vehicle location location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.509828077622295,
+      "longitude": -112.21299481075337
+    },
+    "address": "3589 Sunset Blvd, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-142",
+      "evt-292"
+    ],
+    "relatedIndividualIds": [
+      "ind-021",
+      "ind-006",
+      "ind-078"
+    ],
+    "caseIds": [
+      "case-015"
+    ]
+  },
+  {
+    "id": "loc-143",
+    "name": "5638 Elm St",
+    "type": "meeting_point",
+    "description": "meeting point location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 33.934154243885004,
+      "longitude": -118.23774056013379
+    },
+    "address": "5638 Elm St, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-143",
+      "evt-293"
+    ],
+    "relatedIndividualIds": [
+      "ind-011",
+      "ind-082",
+      "ind-007",
+      "ind-042",
+      "ind-080"
+    ],
+    "caseIds": [
+      "case-001"
+    ]
+  },
+  {
+    "id": "loc-144",
+    "name": "2835 Sunset Blvd",
+    "type": "evidence_location",
+    "description": "evidence location location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.1468984232379,
+      "longitude": -110.948162769564
+    },
+    "address": "2835 Sunset Blvd, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-144",
+      "evt-294"
+    ],
+    "relatedIndividualIds": [
+      "ind-029",
+      "ind-001",
+      "ind-100",
+      "ind-061",
+      "ind-012"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-005",
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-145",
+    "name": "Crime Scene #145",
+    "type": "crime_scene",
+    "description": "crime scene location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.330868421909294,
+      "longitude": -111.94629189129117
+    },
+    "address": "4199 Jefferson St, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-145",
+      "evt-295"
+    ],
+    "relatedIndividualIds": [
+      "ind-031",
+      "ind-056",
+      "ind-064",
+      "ind-089",
+      "ind-036"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-008"
+    ]
+  },
+  {
+    "id": "loc-146",
+    "name": "4343 Pine Rd",
+    "type": "suspect_residence",
+    "description": "suspect residence location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.184916048921146,
+      "longitude": -118.22913620212846
+    },
+    "address": "4343 Pine Rd, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-146",
+      "evt-296"
+    ],
+    "relatedIndividualIds": [
+      "ind-026",
+      "ind-051",
+      "ind-014",
+      "ind-013"
+    ],
+    "caseIds": [
+      "case-002"
+    ]
+  },
+  {
+    "id": "loc-147",
+    "name": "8228 Cactus Dr",
+    "type": "witness_residence",
+    "description": "witness residence location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.23062128014281,
+      "longitude": -110.97350489954822
+    },
+    "address": "8228 Cactus Dr, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-147",
+      "evt-297"
+    ],
+    "relatedIndividualIds": [
+      "ind-033",
+      "ind-048",
+      "ind-021"
+    ],
+    "caseIds": [
+      "case-007",
+      "case-006"
+    ]
+  },
+  {
+    "id": "loc-148",
+    "name": "6040 Main St",
+    "type": "victim_residence",
+    "description": "victim residence location in Phoenix, AZ",
+    "geoLocation": {
+      "latitude": 33.4217403981952,
+      "longitude": -112.17243312212167
+    },
+    "address": "6040 Main St, Phoenix, AZ",
+    "relatedEventIds": [
+      "evt-148",
+      "evt-298"
+    ],
+    "relatedIndividualIds": [
+      "ind-001",
+      "ind-058",
+      "ind-002",
+      "ind-042"
+    ],
+    "caseIds": [
+      "case-007",
+      "case-001",
+      "case-012"
+    ]
+  },
+  {
+    "id": "loc-149",
+    "name": "Cactus Bar & Grill",
+    "type": "business",
+    "description": "business location in Los Angeles, CA",
+    "geoLocation": {
+      "latitude": 34.129469916720076,
+      "longitude": -118.17801169949465
+    },
+    "address": "8063 Desert View Rd, Los Angeles, CA",
+    "relatedEventIds": [
+      "evt-149",
+      "evt-299"
+    ],
+    "relatedIndividualIds": [
+      "ind-058",
+      "ind-005",
+      "ind-037"
+    ],
+    "caseIds": [
+      "case-007",
+      "case-008",
+      "case-012"
+    ]
+  },
+  {
+    "id": "loc-150",
+    "name": "9152 Market St",
+    "type": "public_place",
+    "description": "public place location in Tucson, AZ",
+    "geoLocation": {
+      "latitude": 32.12436467783064,
+      "longitude": -111.10553725776603
+    },
+    "address": "9152 Market St, Tucson, AZ",
+    "relatedEventIds": [
+      "evt-150",
+      "evt-300"
+    ],
+    "relatedIndividualIds": [
+      "ind-006",
+      "ind-056",
+      "ind-018",
+      "ind-082",
+      "ind-014",
+      "ind-023"
+    ],
+    "caseIds": [
+      "case-013",
+      "case-002",
+      "case-004"
+    ]
+  }
+]

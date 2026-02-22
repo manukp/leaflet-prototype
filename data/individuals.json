@@ -1,0 +1,2858 @@
+[
+  {
+    "id": "ind-001",
+    "name": "William Garcia",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "alias": "\"Ghost\"",
+    "relatedEventIds": [
+      "evt-011",
+      "evt-013",
+      "evt-017",
+      "evt-082",
+      "evt-144",
+      "evt-148",
+      "evt-163",
+      "evt-164",
+      "evt-169",
+      "evt-186",
+      "evt-213",
+      "evt-217",
+      "evt-236",
+      "evt-257",
+      "evt-264",
+      "evt-275",
+      "evt-281"
+    ],
+    "relatedLocationIds": [
+      "loc-011",
+      "loc-013",
+      "loc-017",
+      "loc-082",
+      "loc-144",
+      "loc-148",
+      "loc-014",
+      "loc-019",
+      "loc-036",
+      "loc-063",
+      "loc-067",
+      "loc-086",
+      "loc-107",
+      "loc-114",
+      "loc-125",
+      "loc-131"
+    ],
+    "caseIds": [
+      "case-008",
+      "case-001"
+    ]
+  },
+  {
+    "id": "ind-002",
+    "name": "Maria Wilson",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "relatedEventIds": [
+      "evt-013",
+      "evt-120",
+      "evt-148",
+      "evt-163",
+      "evt-206",
+      "evt-215",
+      "evt-228"
+    ],
+    "relatedLocationIds": [
+      "loc-013",
+      "loc-120",
+      "loc-148",
+      "loc-056",
+      "loc-065",
+      "loc-078"
+    ],
+    "caseIds": [
+      "case-002",
+      "case-001"
+    ]
+  },
+  {
+    "id": "ind-003",
+    "name": "James Rodriguez",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "relatedEventIds": [
+      "evt-037",
+      "evt-062",
+      "evt-104",
+      "evt-122",
+      "evt-124",
+      "evt-128",
+      "evt-129",
+      "evt-157",
+      "evt-177",
+      "evt-187",
+      "evt-199",
+      "evt-244",
+      "evt-254",
+      "evt-260",
+      "evt-274"
+    ],
+    "relatedLocationIds": [
+      "loc-037",
+      "loc-062",
+      "loc-104",
+      "loc-122",
+      "loc-124",
+      "loc-128",
+      "loc-129",
+      "loc-007",
+      "loc-027",
+      "loc-049",
+      "loc-094",
+      "loc-110"
+    ],
+    "caseIds": [
+      "case-012",
+      "case-003"
+    ]
+  },
+  {
+    "id": "ind-004",
+    "name": "Miguel Lewis",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "relatedEventIds": [
+      "evt-067",
+      "evt-093",
+      "evt-130",
+      "evt-170",
+      "evt-205",
+      "evt-240",
+      "evt-262",
+      "evt-266",
+      "evt-280"
+    ],
+    "relatedLocationIds": [
+      "loc-067",
+      "loc-093",
+      "loc-130",
+      "loc-020",
+      "loc-055",
+      "loc-090",
+      "loc-112",
+      "loc-116"
+    ],
+    "caseIds": [
+      "case-005"
+    ]
+  },
+  {
+    "id": "ind-005",
+    "name": "Jose Hernandez",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "relatedEventIds": [
+      "evt-004",
+      "evt-055",
+      "evt-083",
+      "evt-086",
+      "evt-122",
+      "evt-153",
+      "evt-177",
+      "evt-220",
+      "evt-229",
+      "evt-258",
+      "evt-265",
+      "evt-299"
+    ],
+    "relatedLocationIds": [
+      "loc-004",
+      "loc-055",
+      "loc-083",
+      "loc-086",
+      "loc-122",
+      "loc-003",
+      "loc-027",
+      "loc-070",
+      "loc-079",
+      "loc-108",
+      "loc-115",
+      "loc-149"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-012"
+    ]
+  },
+  {
+    "id": "ind-006",
+    "name": "Rosa Johnson",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "alias": "\"Blue\"",
+    "relatedEventIds": [
+      "evt-006",
+      "evt-011",
+      "evt-032",
+      "evt-053",
+      "evt-074",
+      "evt-088",
+      "evt-089",
+      "evt-093",
+      "evt-095",
+      "evt-108",
+      "evt-142",
+      "evt-150",
+      "evt-203",
+      "evt-222",
+      "evt-224",
+      "evt-233",
+      "evt-234",
+      "evt-238",
+      "evt-259",
+      "evt-285",
+      "evt-291"
+    ],
+    "relatedLocationIds": [
+      "loc-006",
+      "loc-011",
+      "loc-032",
+      "loc-053",
+      "loc-074",
+      "loc-088",
+      "loc-089",
+      "loc-093",
+      "loc-095",
+      "loc-108",
+      "loc-142",
+      "loc-150",
+      "loc-072",
+      "loc-083",
+      "loc-084",
+      "loc-109",
+      "loc-135",
+      "loc-141"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-004",
+      "case-015"
+    ]
+  },
+  {
+    "id": "ind-007",
+    "name": "Alicia Lopez",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "relatedEventIds": [
+      "evt-029",
+      "evt-109",
+      "evt-112",
+      "evt-143",
+      "evt-186",
+      "evt-205",
+      "evt-219",
+      "evt-240",
+      "evt-257",
+      "evt-265",
+      "evt-283"
+    ],
+    "relatedLocationIds": [
+      "loc-029",
+      "loc-109",
+      "loc-112",
+      "loc-143",
+      "loc-036",
+      "loc-055",
+      "loc-069",
+      "loc-090",
+      "loc-107",
+      "loc-115",
+      "loc-133"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-005"
+    ]
+  },
+  {
+    "id": "ind-008",
+    "name": "Teresa Smith",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "relatedEventIds": [
+      "evt-014",
+      "evt-080",
+      "evt-091",
+      "evt-106"
+    ],
+    "relatedLocationIds": [
+      "loc-014",
+      "loc-080",
+      "loc-091",
+      "loc-106"
+    ],
+    "caseIds": [
+      "case-009"
+    ]
+  },
+  {
+    "id": "ind-009",
+    "name": "Jose Gonzalez",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "relatedEventIds": [
+      "evt-008",
+      "evt-015",
+      "evt-027",
+      "evt-177",
+      "evt-223"
+    ],
+    "relatedLocationIds": [
+      "loc-008",
+      "loc-015",
+      "loc-027",
+      "loc-073"
+    ],
+    "caseIds": [
+      "case-012"
+    ]
+  },
+  {
+    "id": "ind-010",
+    "name": "Alicia Smith",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "relatedEventIds": [
+      "evt-019",
+      "evt-082",
+      "evt-114"
+    ],
+    "relatedLocationIds": [
+      "loc-019",
+      "loc-082",
+      "loc-114"
+    ],
+    "caseIds": [
+      "case-008"
+    ]
+  },
+  {
+    "id": "ind-011",
+    "name": "Jose Taylor",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "alias": "\"Shadow\"",
+    "relatedEventIds": [
+      "evt-041",
+      "evt-048",
+      "evt-051",
+      "evt-077",
+      "evt-108",
+      "evt-143",
+      "evt-155",
+      "evt-177",
+      "evt-263"
+    ],
+    "relatedLocationIds": [
+      "loc-041",
+      "loc-048",
+      "loc-051",
+      "loc-077",
+      "loc-108",
+      "loc-143",
+      "loc-005",
+      "loc-027",
+      "loc-113"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-009",
+      "case-012"
+    ]
+  },
+  {
+    "id": "ind-012",
+    "name": "Carlos Jackson",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "relatedEventIds": [
+      "evt-009",
+      "evt-013",
+      "evt-036",
+      "evt-056",
+      "evt-102",
+      "evt-103",
+      "evt-105",
+      "evt-112",
+      "evt-128",
+      "evt-135",
+      "evt-182",
+      "evt-183",
+      "evt-219",
+      "evt-273",
+      "evt-294"
+    ],
+    "relatedLocationIds": [
+      "loc-009",
+      "loc-013",
+      "loc-036",
+      "loc-056",
+      "loc-102",
+      "loc-103",
+      "loc-105",
+      "loc-112",
+      "loc-128",
+      "loc-135",
+      "loc-032",
+      "loc-033",
+      "loc-069",
+      "loc-123",
+      "loc-144"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-009",
+      "case-011"
+    ]
+  },
+  {
+    "id": "ind-013",
+    "name": "Jose Martin",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "relatedEventIds": [
+      "evt-052",
+      "evt-085",
+      "evt-180",
+      "evt-183",
+      "evt-244",
+      "evt-273",
+      "evt-296"
+    ],
+    "relatedLocationIds": [
+      "loc-052",
+      "loc-085",
+      "loc-030",
+      "loc-033",
+      "loc-094",
+      "loc-123",
+      "loc-146"
+    ],
+    "caseIds": [
+      "case-002",
+      "case-011"
+    ]
+  },
+  {
+    "id": "ind-014",
+    "name": "Daniel Williams",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "relatedEventIds": [
+      "evt-031",
+      "evt-037",
+      "evt-087",
+      "evt-133",
+      "evt-146",
+      "evt-160",
+      "evt-188",
+      "evt-231",
+      "evt-249",
+      "evt-271",
+      "evt-300"
+    ],
+    "relatedLocationIds": [
+      "loc-031",
+      "loc-037",
+      "loc-087",
+      "loc-133",
+      "loc-146",
+      "loc-010",
+      "loc-038",
+      "loc-081",
+      "loc-099",
+      "loc-121",
+      "loc-150"
+    ],
+    "caseIds": [
+      "case-002",
+      "case-007"
+    ]
+  },
+  {
+    "id": "ind-015",
+    "name": "Elizabeth Moore",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "relatedEventIds": [
+      "evt-004",
+      "evt-010",
+      "evt-037",
+      "evt-042",
+      "evt-103",
+      "evt-190",
+      "evt-204",
+      "evt-244",
+      "evt-247",
+      "evt-255"
+    ],
+    "relatedLocationIds": [
+      "loc-004",
+      "loc-010",
+      "loc-037",
+      "loc-042",
+      "loc-103",
+      "loc-040",
+      "loc-054",
+      "loc-094",
+      "loc-097",
+      "loc-105"
+    ],
+    "caseIds": [
+      "case-014",
+      "case-001",
+      "case-002"
+    ]
+  },
+  {
+    "id": "ind-016",
+    "name": "Sofia Gonzalez",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "alias": "\"Ghost\"",
+    "relatedEventIds": [
+      "evt-039",
+      "evt-062",
+      "evt-080",
+      "evt-124",
+      "evt-178",
+      "evt-208",
+      "evt-225",
+      "evt-241",
+      "evt-254",
+      "evt-274",
+      "evt-282"
+    ],
+    "relatedLocationIds": [
+      "loc-039",
+      "loc-062",
+      "loc-080",
+      "loc-124",
+      "loc-028",
+      "loc-058",
+      "loc-075",
+      "loc-091",
+      "loc-104",
+      "loc-132"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-009"
+    ]
+  },
+  {
+    "id": "ind-017",
+    "name": "Gloria Jackson",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "relatedEventIds": [
+      "evt-016",
+      "evt-038",
+      "evt-075",
+      "evt-131",
+      "evt-224",
+      "evt-257",
+      "evt-277"
+    ],
+    "relatedLocationIds": [
+      "loc-016",
+      "loc-038",
+      "loc-075",
+      "loc-131",
+      "loc-074",
+      "loc-107",
+      "loc-127"
+    ],
+    "caseIds": [
+      "case-007",
+      "case-004",
+      "case-011"
+    ]
+  },
+  {
+    "id": "ind-018",
+    "name": "William Perez",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "relatedEventIds": [
+      "evt-019",
+      "evt-025",
+      "evt-030",
+      "evt-033",
+      "evt-047",
+      "evt-064",
+      "evt-068",
+      "evt-076",
+      "evt-098",
+      "evt-110",
+      "evt-138",
+      "evt-150",
+      "evt-175",
+      "evt-189",
+      "evt-196",
+      "evt-197",
+      "evt-207",
+      "evt-248",
+      "evt-254",
+      "evt-268"
+    ],
+    "relatedLocationIds": [
+      "loc-019",
+      "loc-025",
+      "loc-030",
+      "loc-033",
+      "loc-047",
+      "loc-064",
+      "loc-068",
+      "loc-076",
+      "loc-098",
+      "loc-110",
+      "loc-138",
+      "loc-150",
+      "loc-039",
+      "loc-046",
+      "loc-057",
+      "loc-104",
+      "loc-118"
+    ],
+    "caseIds": [
+      "case-006",
+      "case-013",
+      "case-010"
+    ]
+  },
+  {
+    "id": "ind-019",
+    "name": "James Harris",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "relatedEventIds": [
+      "evt-036",
+      "evt-046",
+      "evt-087",
+      "evt-110",
+      "evt-117",
+      "evt-136",
+      "evt-175",
+      "evt-189",
+      "evt-192",
+      "evt-196",
+      "evt-207",
+      "evt-212",
+      "evt-214"
+    ],
+    "relatedLocationIds": [
+      "loc-036",
+      "loc-046",
+      "loc-087",
+      "loc-110",
+      "loc-117",
+      "loc-136",
+      "loc-025",
+      "loc-039",
+      "loc-042",
+      "loc-057",
+      "loc-062",
+      "loc-064"
+    ],
+    "caseIds": [
+      "case-007",
+      "case-013"
+    ]
+  },
+  {
+    "id": "ind-020",
+    "name": "Robert Moore",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "relatedEventIds": [
+      "evt-003",
+      "evt-053",
+      "evt-060",
+      "evt-092",
+      "evt-093",
+      "evt-101",
+      "evt-111",
+      "evt-165",
+      "evt-224",
+      "evt-277"
+    ],
+    "relatedLocationIds": [
+      "loc-003",
+      "loc-053",
+      "loc-060",
+      "loc-092",
+      "loc-093",
+      "loc-101",
+      "loc-111",
+      "loc-015",
+      "loc-074",
+      "loc-127"
+    ],
+    "caseIds": [
+      "case-004",
+      "case-015"
+    ]
+  },
+  {
+    "id": "ind-021",
+    "name": "James Hernandez",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "alias": "\"Ace\"",
+    "relatedEventIds": [
+      "evt-013",
+      "evt-043",
+      "evt-045",
+      "evt-099",
+      "evt-118",
+      "evt-142",
+      "evt-151",
+      "evt-193",
+      "evt-195",
+      "evt-250",
+      "evt-297"
+    ],
+    "relatedLocationIds": [
+      "loc-013",
+      "loc-043",
+      "loc-045",
+      "loc-099",
+      "loc-118",
+      "loc-142",
+      "loc-001",
+      "loc-100",
+      "loc-147"
+    ],
+    "caseIds": [
+      "case-015",
+      "case-006"
+    ]
+  },
+  {
+    "id": "ind-022",
+    "name": "Juan Thompson",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "relatedEventIds": [
+      "evt-084",
+      "evt-098",
+      "evt-132",
+      "evt-169",
+      "evt-180",
+      "evt-183",
+      "evt-250"
+    ],
+    "relatedLocationIds": [
+      "loc-084",
+      "loc-098",
+      "loc-132",
+      "loc-019",
+      "loc-030",
+      "loc-033",
+      "loc-100"
+    ],
+    "caseIds": [
+      "case-010",
+      "case-006"
+    ]
+  },
+  {
+    "id": "ind-023",
+    "name": "William Martinez",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "relatedEventIds": [
+      "evt-003",
+      "evt-040",
+      "evt-078",
+      "evt-120",
+      "evt-121",
+      "evt-153",
+      "evt-185",
+      "evt-187",
+      "evt-188",
+      "evt-281",
+      "evt-300"
+    ],
+    "relatedLocationIds": [
+      "loc-003",
+      "loc-040",
+      "loc-078",
+      "loc-120",
+      "loc-121",
+      "loc-035",
+      "loc-037",
+      "loc-038",
+      "loc-131",
+      "loc-150"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-007",
+      "case-002"
+    ]
+  },
+  {
+    "id": "ind-024",
+    "name": "Eduardo Smith",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "relatedEventIds": [
+      "evt-007",
+      "evt-069",
+      "evt-104",
+      "evt-109",
+      "evt-166",
+      "evt-176",
+      "evt-191",
+      "evt-215",
+      "evt-216",
+      "evt-254"
+    ],
+    "relatedLocationIds": [
+      "loc-007",
+      "loc-069",
+      "loc-104",
+      "loc-109",
+      "loc-016",
+      "loc-026",
+      "loc-041",
+      "loc-065",
+      "loc-066"
+    ],
+    "caseIds": [
+      "case-008",
+      "case-002",
+      "case-010"
+    ]
+  },
+  {
+    "id": "ind-025",
+    "name": "Sandra Thompson",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "relatedEventIds": [
+      "evt-031",
+      "evt-071",
+      "evt-100",
+      "evt-105",
+      "evt-153",
+      "evt-173",
+      "evt-183",
+      "evt-192",
+      "evt-193",
+      "evt-201",
+      "evt-220",
+      "evt-231",
+      "evt-250",
+      "evt-264",
+      "evt-268",
+      "evt-289"
+    ],
+    "relatedLocationIds": [
+      "loc-031",
+      "loc-071",
+      "loc-100",
+      "loc-105",
+      "loc-003",
+      "loc-023",
+      "loc-033",
+      "loc-042",
+      "loc-043",
+      "loc-051",
+      "loc-070",
+      "loc-081",
+      "loc-114",
+      "loc-118",
+      "loc-139"
+    ],
+    "caseIds": [
+      "case-006",
+      "case-001"
+    ]
+  },
+  {
+    "id": "ind-026",
+    "name": "Sofia Ramirez",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "alias": "\"Ace\"",
+    "relatedEventIds": [
+      "evt-049",
+      "evt-120",
+      "evt-146",
+      "evt-155",
+      "evt-244",
+      "evt-270"
+    ],
+    "relatedLocationIds": [
+      "loc-049",
+      "loc-120",
+      "loc-146",
+      "loc-005",
+      "loc-094"
+    ],
+    "caseIds": [
+      "case-002",
+      "case-012"
+    ]
+  },
+  {
+    "id": "ind-027",
+    "name": "Luis Lee",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "relatedEventIds": [
+      "evt-006",
+      "evt-018",
+      "evt-038",
+      "evt-084",
+      "evt-088",
+      "evt-159",
+      "evt-195"
+    ],
+    "relatedLocationIds": [
+      "loc-006",
+      "loc-018",
+      "loc-038",
+      "loc-084",
+      "loc-088",
+      "loc-009",
+      "loc-045"
+    ],
+    "caseIds": [
+      "case-015"
+    ]
+  },
+  {
+    "id": "ind-028",
+    "name": "Carlos White",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "relatedEventIds": [
+      "evt-015",
+      "evt-019",
+      "evt-021",
+      "evt-023",
+      "evt-025",
+      "evt-042",
+      "evt-057",
+      "evt-062",
+      "evt-098",
+      "evt-100",
+      "evt-117",
+      "evt-118",
+      "evt-180",
+      "evt-267",
+      "evt-270"
+    ],
+    "relatedLocationIds": [
+      "loc-015",
+      "loc-019",
+      "loc-021",
+      "loc-023",
+      "loc-025",
+      "loc-042",
+      "loc-057",
+      "loc-062",
+      "loc-098",
+      "loc-100",
+      "loc-117",
+      "loc-118",
+      "loc-030",
+      "loc-120"
+    ],
+    "caseIds": [
+      "case-013",
+      "case-006",
+      "case-012"
+    ]
+  },
+  {
+    "id": "ind-029",
+    "name": "Teresa Harris",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "relatedEventIds": [
+      "evt-061",
+      "evt-070",
+      "evt-074",
+      "evt-093",
+      "evt-101",
+      "evt-113",
+      "evt-127",
+      "evt-129",
+      "evt-141",
+      "evt-144",
+      "evt-161",
+      "evt-163",
+      "evt-194",
+      "evt-220",
+      "evt-222",
+      "evt-243",
+      "evt-277"
+    ],
+    "relatedLocationIds": [
+      "loc-061",
+      "loc-070",
+      "loc-074",
+      "loc-093",
+      "loc-101",
+      "loc-113",
+      "loc-127",
+      "loc-129",
+      "loc-141",
+      "loc-144",
+      "loc-011",
+      "loc-013",
+      "loc-044",
+      "loc-072"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-004",
+      "case-012"
+    ]
+  },
+  {
+    "id": "ind-030",
+    "name": "Jose Jackson",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "relatedEventIds": [
+      "evt-016",
+      "evt-077",
+      "evt-097",
+      "evt-247",
+      "evt-269"
+    ],
+    "relatedLocationIds": [
+      "loc-016",
+      "loc-077",
+      "loc-097",
+      "loc-119"
+    ],
+    "caseIds": [
+      "case-014"
+    ]
+  },
+  {
+    "id": "ind-031",
+    "name": "Eduardo Wilson",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "alias": "\"Shadow\"",
+    "relatedEventIds": [
+      "evt-076",
+      "evt-096",
+      "evt-116",
+      "evt-126",
+      "evt-145",
+      "evt-179",
+      "evt-184",
+      "evt-213",
+      "evt-235",
+      "evt-240",
+      "evt-275",
+      "evt-276",
+      "evt-284"
+    ],
+    "relatedLocationIds": [
+      "loc-076",
+      "loc-096",
+      "loc-116",
+      "loc-126",
+      "loc-145",
+      "loc-029",
+      "loc-034",
+      "loc-063",
+      "loc-085",
+      "loc-090",
+      "loc-125",
+      "loc-134"
+    ],
+    "caseIds": [
+      "case-008",
+      "case-005"
+    ]
+  },
+  {
+    "id": "ind-032",
+    "name": "Carmen Lewis",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "relatedEventIds": [
+      "evt-058",
+      "evt-237",
+      "evt-238",
+      "evt-245"
+    ],
+    "relatedLocationIds": [
+      "loc-058",
+      "loc-087",
+      "loc-088",
+      "loc-095"
+    ],
+    "caseIds": [
+      "case-015"
+    ]
+  },
+  {
+    "id": "ind-033",
+    "name": "Maria Miller",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "relatedEventIds": [
+      "evt-038",
+      "evt-052",
+      "evt-099",
+      "evt-119",
+      "evt-147",
+      "evt-186",
+      "evt-188",
+      "evt-225",
+      "evt-247"
+    ],
+    "relatedLocationIds": [
+      "loc-038",
+      "loc-052",
+      "loc-099",
+      "loc-119",
+      "loc-147",
+      "loc-036",
+      "loc-075",
+      "loc-097"
+    ],
+    "caseIds": [
+      "case-007",
+      "case-014"
+    ]
+  },
+  {
+    "id": "ind-034",
+    "name": "Michael Martin",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "relatedEventIds": [
+      "evt-208",
+      "evt-209",
+      "evt-241"
+    ],
+    "relatedLocationIds": [
+      "loc-058",
+      "loc-059",
+      "loc-091"
+    ],
+    "caseIds": [
+      "case-009"
+    ]
+  },
+  {
+    "id": "ind-035",
+    "name": "James Clark",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "relatedEventIds": [
+      "evt-081",
+      "evt-098",
+      "evt-140",
+      "evt-165",
+      "evt-173",
+      "evt-174",
+      "evt-202",
+      "evt-218",
+      "evt-248",
+      "evt-278"
+    ],
+    "relatedLocationIds": [
+      "loc-081",
+      "loc-098",
+      "loc-140",
+      "loc-015",
+      "loc-023",
+      "loc-024",
+      "loc-052",
+      "loc-068",
+      "loc-128"
+    ],
+    "caseIds": [
+      "case-011",
+      "case-006"
+    ]
+  },
+  {
+    "id": "ind-036",
+    "name": "Luis Clark",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "alias": "\"Red\"",
+    "relatedEventIds": [
+      "evt-041",
+      "evt-295"
+    ],
+    "relatedLocationIds": [
+      "loc-041",
+      "loc-145"
+    ],
+    "caseIds": [
+      "case-008"
+    ]
+  },
+  {
+    "id": "ind-037",
+    "name": "Francisco Thomas",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "relatedEventIds": [
+      "evt-025",
+      "evt-057",
+      "evt-064",
+      "evt-124",
+      "evt-136",
+      "evt-168",
+      "evt-202",
+      "evt-267",
+      "evt-274",
+      "evt-278",
+      "evt-299"
+    ],
+    "relatedLocationIds": [
+      "loc-025",
+      "loc-057",
+      "loc-064",
+      "loc-124",
+      "loc-136",
+      "loc-018",
+      "loc-052",
+      "loc-117",
+      "loc-128",
+      "loc-149"
+    ],
+    "caseIds": [
+      "case-007",
+      "case-013",
+      "case-003"
+    ]
+  },
+  {
+    "id": "ind-038",
+    "name": "Michael Jones",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "relatedEventIds": [
+      "evt-058",
+      "evt-114",
+      "evt-178",
+      "evt-255"
+    ],
+    "relatedLocationIds": [
+      "loc-058",
+      "loc-114",
+      "loc-028",
+      "loc-105"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-009"
+    ]
+  },
+  {
+    "id": "ind-039",
+    "name": "Maria Lopez",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "relatedEventIds": [
+      "evt-035",
+      "evt-073",
+      "evt-122",
+      "evt-156",
+      "evt-170",
+      "evt-171"
+    ],
+    "relatedLocationIds": [
+      "loc-035",
+      "loc-073",
+      "loc-122",
+      "loc-006",
+      "loc-020",
+      "loc-021"
+    ],
+    "caseIds": [
+      "case-015",
+      "case-007",
+      "case-012"
+    ]
+  },
+  {
+    "id": "ind-040",
+    "name": "Gloria Wilson",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "relatedEventIds": [
+      "evt-031",
+      "evt-039",
+      "evt-064",
+      "evt-110",
+      "evt-192",
+      "evt-212",
+      "evt-272"
+    ],
+    "relatedLocationIds": [
+      "loc-031",
+      "loc-039",
+      "loc-064",
+      "loc-110",
+      "loc-042",
+      "loc-062",
+      "loc-122"
+    ],
+    "caseIds": [
+      "case-013"
+    ]
+  },
+  {
+    "id": "ind-041",
+    "name": "Linda Williams",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "alias": "\"Slim\"",
+    "relatedEventIds": [
+      "evt-034",
+      "evt-134"
+    ],
+    "relatedLocationIds": [
+      "loc-034",
+      "loc-134"
+    ],
+    "caseIds": [
+      "case-008"
+    ]
+  },
+  {
+    "id": "ind-042",
+    "name": "Martha Hernandez",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "relatedEventIds": [
+      "evt-054",
+      "evt-082",
+      "evt-086",
+      "evt-143",
+      "evt-285",
+      "evt-298"
+    ],
+    "relatedLocationIds": [
+      "loc-054",
+      "loc-082",
+      "loc-086",
+      "loc-143",
+      "loc-135",
+      "loc-148"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-014"
+    ]
+  },
+  {
+    "id": "ind-043",
+    "name": "Laura Thompson",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "relatedEventIds": [
+      "evt-010",
+      "evt-089",
+      "evt-123",
+      "evt-128",
+      "evt-140",
+      "evt-160",
+      "evt-278"
+    ],
+    "relatedLocationIds": [
+      "loc-010",
+      "loc-089",
+      "loc-123",
+      "loc-128",
+      "loc-140"
+    ],
+    "caseIds": [
+      "case-011"
+    ]
+  },
+  {
+    "id": "ind-044",
+    "name": "Francisco Anderson",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "relatedEventIds": [
+      "evt-002",
+      "evt-030",
+      "evt-048",
+      "evt-068",
+      "evt-118",
+      "evt-137",
+      "evt-198",
+      "evt-216",
+      "evt-248",
+      "evt-288"
+    ],
+    "relatedLocationIds": [
+      "loc-002",
+      "loc-030",
+      "loc-048",
+      "loc-068",
+      "loc-118",
+      "loc-137",
+      "loc-066",
+      "loc-098",
+      "loc-138"
+    ],
+    "caseIds": [
+      "case-006",
+      "case-001",
+      "case-008"
+    ]
+  },
+  {
+    "id": "ind-045",
+    "name": "Miguel Lee",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "relatedEventIds": [
+      "evt-026",
+      "evt-044",
+      "evt-074",
+      "evt-165",
+      "evt-226",
+      "evt-249",
+      "evt-266",
+      "evt-279"
+    ],
+    "relatedLocationIds": [
+      "loc-026",
+      "loc-044",
+      "loc-074",
+      "loc-015",
+      "loc-076",
+      "loc-099",
+      "loc-116",
+      "loc-129"
+    ],
+    "caseIds": [
+      "case-008",
+      "case-010",
+      "case-004"
+    ]
+  },
+  {
+    "id": "ind-046",
+    "name": "Patricia Sanchez",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "alias": "\"Doc\"",
+    "relatedEventIds": [
+      "evt-133",
+      "evt-139",
+      "evt-154",
+      "evt-160",
+      "evt-190",
+      "evt-235",
+      "evt-252",
+      "evt-289"
+    ],
+    "relatedLocationIds": [
+      "loc-133",
+      "loc-139",
+      "loc-004",
+      "loc-010",
+      "loc-040",
+      "loc-085",
+      "loc-102"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-002"
+    ]
+  },
+  {
+    "id": "ind-047",
+    "name": "Robert Clark",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "relatedEventIds": [
+      "evt-105",
+      "evt-113",
+      "evt-154",
+      "evt-205",
+      "evt-209"
+    ],
+    "relatedLocationIds": [
+      "loc-105",
+      "loc-113",
+      "loc-004",
+      "loc-055",
+      "loc-059"
+    ],
+    "caseIds": [
+      "case-001"
+    ]
+  },
+  {
+    "id": "ind-048",
+    "name": "Elizabeth Sanchez",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "relatedEventIds": [
+      "evt-023",
+      "evt-043",
+      "evt-072",
+      "evt-101",
+      "evt-125",
+      "evt-127",
+      "evt-137",
+      "evt-147",
+      "evt-155",
+      "evt-193",
+      "evt-211",
+      "evt-218",
+      "evt-224",
+      "evt-242",
+      "evt-251"
+    ],
+    "relatedLocationIds": [
+      "loc-023",
+      "loc-043",
+      "loc-072",
+      "loc-101",
+      "loc-125",
+      "loc-127",
+      "loc-137",
+      "loc-147",
+      "loc-005",
+      "loc-061",
+      "loc-068",
+      "loc-074",
+      "loc-092"
+    ],
+    "caseIds": [
+      "case-007",
+      "case-006",
+      "case-004"
+    ]
+  },
+  {
+    "id": "ind-049",
+    "name": "Michael Gonzalez",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "relatedEventIds": [
+      "evt-072",
+      "evt-141",
+      "evt-161",
+      "evt-211"
+    ],
+    "relatedLocationIds": [
+      "loc-072",
+      "loc-141",
+      "loc-011",
+      "loc-061"
+    ],
+    "caseIds": [
+      "case-004"
+    ]
+  },
+  {
+    "id": "ind-050",
+    "name": "Carlos Garcia",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "relatedEventIds": [
+      "evt-038",
+      "evt-097",
+      "evt-185",
+      "evt-187",
+      "evt-200",
+      "evt-232",
+      "evt-269"
+    ],
+    "relatedLocationIds": [
+      "loc-038",
+      "loc-097",
+      "loc-035",
+      "loc-037",
+      "loc-050",
+      "loc-082",
+      "loc-119"
+    ],
+    "caseIds": [
+      "case-014",
+      "case-007"
+    ]
+  },
+  {
+    "id": "ind-051",
+    "name": "Elizabeth Smith",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "alias": "\"Blue\"",
+    "relatedEventIds": [
+      "evt-007",
+      "evt-023",
+      "evt-029",
+      "evt-096",
+      "evt-101",
+      "evt-141",
+      "evt-146",
+      "evt-165",
+      "evt-180",
+      "evt-210",
+      "evt-211",
+      "evt-215",
+      "evt-228",
+      "evt-251",
+      "evt-262",
+      "evt-280"
+    ],
+    "relatedLocationIds": [
+      "loc-007",
+      "loc-023",
+      "loc-029",
+      "loc-096",
+      "loc-101",
+      "loc-141",
+      "loc-146",
+      "loc-015",
+      "loc-030",
+      "loc-060",
+      "loc-061",
+      "loc-065",
+      "loc-078",
+      "loc-112",
+      "loc-130"
+    ],
+    "caseIds": [
+      "case-004",
+      "case-002",
+      "case-005"
+    ]
+  },
+  {
+    "id": "ind-052",
+    "name": "William Rodriguez",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "relatedEventIds": [
+      "evt-020",
+      "evt-023",
+      "evt-096",
+      "evt-099",
+      "evt-102",
+      "evt-103",
+      "evt-115",
+      "evt-155",
+      "evt-167",
+      "evt-170",
+      "evt-181",
+      "evt-230",
+      "evt-243",
+      "evt-246",
+      "evt-271",
+      "evt-280"
+    ],
+    "relatedLocationIds": [
+      "loc-020",
+      "loc-023",
+      "loc-096",
+      "loc-099",
+      "loc-102",
+      "loc-103",
+      "loc-115",
+      "loc-005",
+      "loc-017",
+      "loc-031",
+      "loc-080",
+      "loc-093",
+      "loc-121",
+      "loc-130"
+    ],
+    "caseIds": [
+      "case-007",
+      "case-001",
+      "case-005"
+    ]
+  },
+  {
+    "id": "ind-053",
+    "name": "Carmen Perez",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "relatedEventIds": [
+      "evt-219",
+      "evt-235"
+    ],
+    "relatedLocationIds": [
+      "loc-069",
+      "loc-085"
+    ],
+    "caseIds": [
+      "case-002"
+    ]
+  },
+  {
+    "id": "ind-054",
+    "name": "Rosa Rodriguez",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "relatedEventIds": [
+      "evt-056",
+      "evt-137",
+      "evt-162"
+    ],
+    "relatedLocationIds": [
+      "loc-056",
+      "loc-137",
+      "loc-012"
+    ],
+    "caseIds": [
+      "case-001"
+    ]
+  },
+  {
+    "id": "ind-055",
+    "name": "Laura Martin",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "relatedEventIds": [
+      "evt-182",
+      "evt-227",
+      "evt-230"
+    ],
+    "relatedLocationIds": [
+      "loc-032",
+      "loc-077",
+      "loc-080"
+    ],
+    "caseIds": [
+      "case-009"
+    ]
+  },
+  {
+    "id": "ind-056",
+    "name": "Sandra Thomas",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "alias": "\"Boss\"",
+    "relatedEventIds": [
+      "evt-066",
+      "evt-126",
+      "evt-150",
+      "evt-276",
+      "evt-295"
+    ],
+    "relatedLocationIds": [
+      "loc-066",
+      "loc-126",
+      "loc-150",
+      "loc-145"
+    ],
+    "caseIds": [
+      "case-008",
+      "case-004",
+      "case-012"
+    ]
+  },
+  {
+    "id": "ind-057",
+    "name": "Luis Perez",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "relatedEventIds": [
+      "evt-008",
+      "evt-080",
+      "evt-126",
+      "evt-158",
+      "evt-178",
+      "evt-242",
+      "evt-264",
+      "evt-276"
+    ],
+    "relatedLocationIds": [
+      "loc-008",
+      "loc-080",
+      "loc-126",
+      "loc-028",
+      "loc-092",
+      "loc-114"
+    ],
+    "caseIds": [
+      "case-009",
+      "case-008",
+      "case-012"
+    ]
+  },
+  {
+    "id": "ind-058",
+    "name": "Sandra Ramirez",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "relatedEventIds": [
+      "evt-081",
+      "evt-087",
+      "evt-148",
+      "evt-149",
+      "evt-152",
+      "evt-158",
+      "evt-163",
+      "evt-225",
+      "evt-263",
+      "evt-271",
+      "evt-279"
+    ],
+    "relatedLocationIds": [
+      "loc-081",
+      "loc-087",
+      "loc-148",
+      "loc-149",
+      "loc-002",
+      "loc-008",
+      "loc-013",
+      "loc-075",
+      "loc-113",
+      "loc-121",
+      "loc-129"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-007"
+    ]
+  },
+  {
+    "id": "ind-059",
+    "name": "Linda Jackson",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "relatedEventIds": [
+      "evt-007",
+      "evt-024",
+      "evt-034",
+      "evt-058",
+      "evt-134",
+      "evt-174",
+      "evt-250"
+    ],
+    "relatedLocationIds": [
+      "loc-007",
+      "loc-024",
+      "loc-034",
+      "loc-058",
+      "loc-134",
+      "loc-100"
+    ],
+    "caseIds": [
+      "case-006",
+      "case-008"
+    ]
+  },
+  {
+    "id": "ind-060",
+    "name": "Michael Jackson",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "relatedEventIds": [
+      "evt-081",
+      "evt-158",
+      "evt-172"
+    ],
+    "relatedLocationIds": [
+      "loc-081",
+      "loc-008",
+      "loc-022"
+    ],
+    "caseIds": [
+      "case-007"
+    ]
+  },
+  {
+    "id": "ind-061",
+    "name": "Daniel Rodriguez",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "alias": "\"Doc\"",
+    "relatedEventIds": [
+      "evt-007",
+      "evt-017",
+      "evt-294"
+    ],
+    "relatedLocationIds": [
+      "loc-007",
+      "loc-017",
+      "loc-144"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-002"
+    ]
+  },
+  {
+    "id": "ind-062",
+    "name": "William Brown",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "relatedEventIds": [
+      "evt-069",
+      "evt-186",
+      "evt-235"
+    ],
+    "relatedLocationIds": [
+      "loc-069",
+      "loc-036",
+      "loc-085"
+    ],
+    "caseIds": [
+      "case-001"
+    ]
+  },
+  {
+    "id": "ind-063",
+    "name": "Jose Gonzalez",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "relatedEventIds": [
+      "evt-226"
+    ],
+    "relatedLocationIds": [
+      "loc-076"
+    ],
+    "caseIds": [
+      "case-008"
+    ]
+  },
+  {
+    "id": "ind-064",
+    "name": "Juan Jones",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "relatedEventIds": [
+      "evt-005",
+      "evt-011",
+      "evt-028",
+      "evt-052",
+      "evt-063",
+      "evt-092",
+      "evt-099",
+      "evt-279",
+      "evt-287",
+      "evt-295"
+    ],
+    "relatedLocationIds": [
+      "loc-005",
+      "loc-011",
+      "loc-028",
+      "loc-052",
+      "loc-063",
+      "loc-092",
+      "loc-099",
+      "loc-129",
+      "loc-137",
+      "loc-145"
+    ],
+    "caseIds": [
+      "case-010",
+      "case-012",
+      "case-008"
+    ]
+  },
+  {
+    "id": "ind-065",
+    "name": "Sofia Williams",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "relatedEventIds": [
+      "evt-022",
+      "evt-050",
+      "evt-178"
+    ],
+    "relatedLocationIds": [
+      "loc-022",
+      "loc-050",
+      "loc-028"
+    ],
+    "caseIds": [
+      "case-010",
+      "case-007"
+    ]
+  },
+  {
+    "id": "ind-066",
+    "name": "Carlos Gonzalez",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "alias": "\"Slim\"",
+    "relatedEventIds": [
+      "evt-032",
+      "evt-036",
+      "evt-053",
+      "evt-179",
+      "evt-182",
+      "evt-203",
+      "evt-228",
+      "evt-234",
+      "evt-246",
+      "evt-291"
+    ],
+    "relatedLocationIds": [
+      "loc-032",
+      "loc-036",
+      "loc-053",
+      "loc-029",
+      "loc-078",
+      "loc-084",
+      "loc-096",
+      "loc-141"
+    ],
+    "caseIds": [
+      "case-004",
+      "case-005",
+      "case-015"
+    ]
+  },
+  {
+    "id": "ind-067",
+    "name": "Jose Lopez",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "relatedEventIds": [
+      "evt-044",
+      "evt-074",
+      "evt-172",
+      "evt-184",
+      "evt-194",
+      "evt-231",
+      "evt-271"
+    ],
+    "relatedLocationIds": [
+      "loc-044",
+      "loc-074",
+      "loc-022",
+      "loc-034",
+      "loc-081",
+      "loc-121"
+    ],
+    "caseIds": [
+      "case-004",
+      "case-007"
+    ]
+  },
+  {
+    "id": "ind-068",
+    "name": "Juan Miller",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "relatedEventIds": [
+      "evt-020",
+      "evt-063",
+      "evt-084",
+      "evt-126",
+      "evt-161",
+      "evt-164",
+      "evt-170",
+      "evt-208",
+      "evt-213",
+      "evt-229"
+    ],
+    "relatedLocationIds": [
+      "loc-020",
+      "loc-063",
+      "loc-084",
+      "loc-126",
+      "loc-011",
+      "loc-014",
+      "loc-058",
+      "loc-079"
+    ],
+    "caseIds": [
+      "case-008",
+      "case-001",
+      "case-015"
+    ]
+  },
+  {
+    "id": "ind-069",
+    "name": "Antonio Davis",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "relatedEventIds": [
+      "evt-039",
+      "evt-196",
+      "evt-221",
+      "evt-260",
+      "evt-267",
+      "evt-286"
+    ],
+    "relatedLocationIds": [
+      "loc-039",
+      "loc-046",
+      "loc-071",
+      "loc-110",
+      "loc-117",
+      "loc-136"
+    ],
+    "caseIds": [
+      "case-013"
+    ]
+  },
+  {
+    "id": "ind-070",
+    "name": "Carmen Johnson",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "relatedEventIds": [
+      "evt-075",
+      "evt-106",
+      "evt-112",
+      "evt-191",
+      "evt-241"
+    ],
+    "relatedLocationIds": [
+      "loc-075",
+      "loc-106",
+      "loc-112",
+      "loc-041",
+      "loc-091"
+    ],
+    "caseIds": [
+      "case-009"
+    ]
+  },
+  {
+    "id": "ind-071",
+    "name": "Michael Davis",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "alias": "\"Kid\"",
+    "relatedEventIds": [
+      "evt-001",
+      "evt-063",
+      "evt-213",
+      "evt-287"
+    ],
+    "relatedLocationIds": [
+      "loc-001",
+      "loc-063",
+      "loc-137"
+    ],
+    "caseIds": [
+      "case-012",
+      "case-008"
+    ]
+  },
+  {
+    "id": "ind-072",
+    "name": "Eduardo Gonzalez",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "relatedEventIds": [
+      "evt-009",
+      "evt-089",
+      "evt-156"
+    ],
+    "relatedLocationIds": [
+      "loc-009",
+      "loc-089",
+      "loc-006"
+    ],
+    "caseIds": [
+      "case-015"
+    ]
+  },
+  {
+    "id": "ind-073",
+    "name": "William Brown",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "relatedEventIds": [
+      "evt-004",
+      "evt-016",
+      "evt-036",
+      "evt-236",
+      "evt-258",
+      "evt-285"
+    ],
+    "relatedLocationIds": [
+      "loc-004",
+      "loc-016",
+      "loc-036",
+      "loc-086",
+      "loc-108",
+      "loc-135"
+    ],
+    "caseIds": [
+      "case-010",
+      "case-001"
+    ]
+  },
+  {
+    "id": "ind-074",
+    "name": "Sandra Brown",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "relatedEventIds": [
+      "evt-017",
+      "evt-083",
+      "evt-289"
+    ],
+    "relatedLocationIds": [
+      "loc-017",
+      "loc-083",
+      "loc-139"
+    ],
+    "caseIds": [
+      "case-001"
+    ]
+  },
+  {
+    "id": "ind-075",
+    "name": "Elizabeth Davis",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "relatedEventIds": [
+      "evt-024",
+      "evt-100",
+      "evt-174",
+      "evt-218",
+      "evt-221",
+      "evt-287"
+    ],
+    "relatedLocationIds": [
+      "loc-024",
+      "loc-100",
+      "loc-068",
+      "loc-071",
+      "loc-137"
+    ],
+    "caseIds": [
+      "case-006"
+    ]
+  },
+  {
+    "id": "ind-076",
+    "name": "Jose Lee",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "alias": "\"Red\"",
+    "relatedEventIds": [
+      "evt-026",
+      "evt-114",
+      "evt-140",
+      "evt-290"
+    ],
+    "relatedLocationIds": [
+      "loc-026",
+      "loc-114",
+      "loc-140"
+    ],
+    "caseIds": [
+      "case-008",
+      "case-011"
+    ]
+  },
+  {
+    "id": "ind-077",
+    "name": "Sofia Thomas",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "relatedEventIds": [
+      "evt-017",
+      "evt-137",
+      "evt-159",
+      "evt-216"
+    ],
+    "relatedLocationIds": [
+      "loc-017",
+      "loc-137",
+      "loc-009",
+      "loc-066"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-015"
+    ]
+  },
+  {
+    "id": "ind-078",
+    "name": "Gloria Wilson",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "relatedEventIds": [
+      "evt-024",
+      "evt-188",
+      "evt-238",
+      "evt-292"
+    ],
+    "relatedLocationIds": [
+      "loc-024",
+      "loc-038",
+      "loc-088",
+      "loc-142"
+    ],
+    "caseIds": [
+      "case-015"
+    ]
+  },
+  {
+    "id": "ind-079",
+    "name": "Luis Johnson",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "relatedEventIds": [
+      "evt-006",
+      "evt-009",
+      "evt-053",
+      "evt-090",
+      "evt-156",
+      "evt-179",
+      "evt-234"
+    ],
+    "relatedLocationIds": [
+      "loc-006",
+      "loc-009",
+      "loc-053",
+      "loc-090",
+      "loc-029",
+      "loc-084"
+    ],
+    "caseIds": [
+      "case-005",
+      "case-015"
+    ]
+  },
+  {
+    "id": "ind-080",
+    "name": "Carlos Smith",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "relatedEventIds": [
+      "evt-059",
+      "evt-198",
+      "evt-216",
+      "evt-263",
+      "evt-293"
+    ],
+    "relatedLocationIds": [
+      "loc-059",
+      "loc-048",
+      "loc-066",
+      "loc-113",
+      "loc-143"
+    ],
+    "caseIds": [
+      "case-001"
+    ]
+  },
+  {
+    "id": "ind-081",
+    "name": "Sandra Williams",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "alias": "\"Ace\"",
+    "relatedEventIds": [
+      "evt-004",
+      "evt-050",
+      "evt-139",
+      "evt-185"
+    ],
+    "relatedLocationIds": [
+      "loc-004",
+      "loc-050",
+      "loc-139",
+      "loc-035"
+    ],
+    "caseIds": [
+      "case-007",
+      "case-001"
+    ]
+  },
+  {
+    "id": "ind-082",
+    "name": "Eduardo Smith",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "relatedEventIds": [
+      "evt-010",
+      "evt-078",
+      "evt-086",
+      "evt-094",
+      "evt-143",
+      "evt-150",
+      "evt-236"
+    ],
+    "relatedLocationIds": [
+      "loc-010",
+      "loc-078",
+      "loc-086",
+      "loc-094",
+      "loc-143",
+      "loc-150"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-002"
+    ]
+  },
+  {
+    "id": "ind-083",
+    "name": "Michael Gonzalez",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "relatedEventIds": [
+      "evt-075",
+      "evt-113",
+      "evt-190",
+      "evt-253",
+      "evt-285"
+    ],
+    "relatedLocationIds": [
+      "loc-075",
+      "loc-113",
+      "loc-040",
+      "loc-103",
+      "loc-135"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-002"
+    ]
+  },
+  {
+    "id": "ind-084",
+    "name": "Elizabeth Davis",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "relatedEventIds": [
+      "evt-044",
+      "evt-084",
+      "evt-089",
+      "evt-117",
+      "evt-141",
+      "evt-175",
+      "evt-222",
+      "evt-243",
+      "evt-258",
+      "evt-275",
+      "evt-277"
+    ],
+    "relatedLocationIds": [
+      "loc-044",
+      "loc-084",
+      "loc-089",
+      "loc-117",
+      "loc-141",
+      "loc-025",
+      "loc-072",
+      "loc-093",
+      "loc-108",
+      "loc-125",
+      "loc-127"
+    ],
+    "caseIds": [
+      "case-013",
+      "case-011",
+      "case-004"
+    ]
+  },
+  {
+    "id": "ind-085",
+    "name": "William Jones",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "relatedEventIds": [
+      "evt-243",
+      "evt-280"
+    ],
+    "relatedLocationIds": [
+      "loc-093",
+      "loc-130"
+    ],
+    "caseIds": [
+      "case-005"
+    ]
+  },
+  {
+    "id": "ind-086",
+    "name": "Miguel Perez",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "alias": "\"Shadow\"",
+    "relatedEventIds": [
+      "evt-270"
+    ],
+    "relatedLocationIds": [
+      "loc-120"
+    ],
+    "caseIds": [
+      "case-002"
+    ]
+  },
+  {
+    "id": "ind-087",
+    "name": "Patricia Thompson",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "relatedEventIds": [
+      "evt-006",
+      "evt-016",
+      "evt-020",
+      "evt-039",
+      "evt-097",
+      "evt-133",
+      "evt-164",
+      "evt-196",
+      "evt-198",
+      "evt-239",
+      "evt-269",
+      "evt-286"
+    ],
+    "relatedLocationIds": [
+      "loc-006",
+      "loc-016",
+      "loc-020",
+      "loc-039",
+      "loc-097",
+      "loc-133",
+      "loc-014",
+      "loc-046",
+      "loc-048",
+      "loc-089",
+      "loc-119",
+      "loc-136"
+    ],
+    "caseIds": [
+      "case-013",
+      "case-015",
+      "case-014"
+    ]
+  },
+  {
+    "id": "ind-088",
+    "name": "Daniel Perez",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "relatedEventIds": [
+      "evt-045",
+      "evt-058",
+      "evt-087",
+      "evt-239",
+      "evt-261",
+      "evt-273",
+      "evt-275",
+      "evt-290"
+    ],
+    "relatedLocationIds": [
+      "loc-045",
+      "loc-058",
+      "loc-087",
+      "loc-089",
+      "loc-111",
+      "loc-123",
+      "loc-125",
+      "loc-140"
+    ],
+    "caseIds": [
+      "case-015",
+      "case-011"
+    ]
+  },
+  {
+    "id": "ind-089",
+    "name": "Robert Perez",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "relatedEventIds": [
+      "evt-114",
+      "evt-131",
+      "evt-295"
+    ],
+    "relatedLocationIds": [
+      "loc-114",
+      "loc-131",
+      "loc-145"
+    ],
+    "caseIds": [
+      "case-008"
+    ]
+  },
+  {
+    "id": "ind-090",
+    "name": "Rosa Thomas",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "relatedEventIds": [
+      "evt-055",
+      "evt-079",
+      "evt-107",
+      "evt-139",
+      "evt-164",
+      "evt-220"
+    ],
+    "relatedLocationIds": [
+      "loc-055",
+      "loc-079",
+      "loc-107",
+      "loc-139",
+      "loc-014",
+      "loc-070"
+    ],
+    "caseIds": [
+      "case-001",
+      "case-009"
+    ]
+  },
+  {
+    "id": "ind-091",
+    "name": "Robert Lewis",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "alias": "\"Ghost\"",
+    "relatedEventIds": [
+      "evt-077",
+      "evt-106",
+      "evt-241",
+      "evt-256"
+    ],
+    "relatedLocationIds": [
+      "loc-077",
+      "loc-106",
+      "loc-091"
+    ],
+    "caseIds": [
+      "case-009"
+    ]
+  },
+  {
+    "id": "ind-092",
+    "name": "Ricardo Lewis",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "relatedEventIds": [
+      "evt-012",
+      "evt-068",
+      "evt-221",
+      "evt-248"
+    ],
+    "relatedLocationIds": [
+      "loc-012",
+      "loc-068",
+      "loc-071",
+      "loc-098"
+    ],
+    "caseIds": [
+      "case-006"
+    ]
+  },
+  {
+    "id": "ind-093",
+    "name": "Laura Sanchez",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "relatedEventIds": [
+      "evt-286"
+    ],
+    "relatedLocationIds": [
+      "loc-136"
+    ],
+    "caseIds": [
+      "case-013"
+    ]
+  },
+  {
+    "id": "ind-094",
+    "name": "Jennifer Moore",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "relatedEventIds": [
+      "evt-035",
+      "evt-065",
+      "evt-104",
+      "evt-124",
+      "evt-171",
+      "evt-274"
+    ],
+    "relatedLocationIds": [
+      "loc-035",
+      "loc-065",
+      "loc-104",
+      "loc-124",
+      "loc-021"
+    ],
+    "caseIds": [
+      "case-003",
+      "case-007"
+    ]
+  },
+  {
+    "id": "ind-095",
+    "name": "Luis Lee",
+    "role": "informant",
+    "description": "informant in ongoing investigations",
+    "relatedEventIds": [
+      "evt-059",
+      "evt-225"
+    ],
+    "relatedLocationIds": [
+      "loc-059",
+      "loc-075"
+    ],
+    "caseIds": [
+      "case-009"
+    ]
+  },
+  {
+    "id": "ind-096",
+    "name": "Miguel Thomas",
+    "role": "law_enforcement",
+    "description": "law enforcement in ongoing investigations",
+    "alias": "\"Blue\"",
+    "relatedEventIds": [
+      "evt-096",
+      "evt-218",
+      "evt-233"
+    ],
+    "relatedLocationIds": [
+      "loc-096",
+      "loc-068",
+      "loc-083"
+    ],
+    "caseIds": [
+      "case-005",
+      "case-006"
+    ]
+  },
+  {
+    "id": "ind-097",
+    "name": "Juan Perez",
+    "role": "suspect",
+    "description": "suspect in ongoing investigations",
+    "relatedEventIds": [
+      "evt-075",
+      "evt-078",
+      "evt-102",
+      "evt-112",
+      "evt-151",
+      "evt-219",
+      "evt-229",
+      "evt-240",
+      "evt-255"
+    ],
+    "relatedLocationIds": [
+      "loc-075",
+      "loc-078",
+      "loc-102",
+      "loc-112",
+      "loc-001",
+      "loc-069",
+      "loc-079",
+      "loc-090",
+      "loc-105"
+    ],
+    "caseIds": [
+      "case-005",
+      "case-001"
+    ]
+  },
+  {
+    "id": "ind-098",
+    "name": "William Garcia",
+    "role": "witness",
+    "description": "witness in ongoing investigations",
+    "relatedEventIds": [
+      "evt-031",
+      "evt-051",
+      "evt-054",
+      "evt-057",
+      "evt-226",
+      "evt-286"
+    ],
+    "relatedLocationIds": [
+      "loc-031",
+      "loc-051",
+      "loc-054",
+      "loc-057",
+      "loc-076",
+      "loc-136"
+    ],
+    "caseIds": [
+      "case-013",
+      "case-014"
+    ]
+  },
+  {
+    "id": "ind-099",
+    "name": "Ana Martin",
+    "role": "victim",
+    "description": "victim in ongoing investigations",
+    "relatedEventIds": [
+      "evt-057",
+      "evt-175"
+    ],
+    "relatedLocationIds": [
+      "loc-057",
+      "loc-025"
+    ],
+    "caseIds": [
+      "case-002",
+      "case-013"
+    ]
+  },
+  {
+    "id": "ind-100",
+    "name": "Carmen Gonzalez",
+    "role": "person_of_interest",
+    "description": "person of interest in ongoing investigations",
+    "relatedEventIds": [
+      "evt-019",
+      "evt-025",
+      "evt-046",
+      "evt-063",
+      "evt-103",
+      "evt-113",
+      "evt-115",
+      "evt-134",
+      "evt-151",
+      "evt-201",
+      "evt-207",
+      "evt-267",
+      "evt-294"
+    ],
+    "relatedLocationIds": [
+      "loc-019",
+      "loc-025",
+      "loc-046",
+      "loc-063",
+      "loc-103",
+      "loc-113",
+      "loc-115",
+      "loc-134",
+      "loc-001",
+      "loc-051",
+      "loc-057",
+      "loc-117",
+      "loc-144"
+    ],
+    "caseIds": [
+      "case-008",
+      "case-001",
+      "case-013"
+    ]
+  }
+]
