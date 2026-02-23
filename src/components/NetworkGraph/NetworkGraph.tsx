@@ -50,18 +50,35 @@ export function NetworkGraph() {
     loading
   } = useAppContext();
 
-  // Update dimensions on resize
+  // Update dimensions on resize using ResizeObserver for reliable initial render
   useEffect(() => {
+    const container = svgRef.current?.parentElement;
+    if (!container) return;
+
     const updateDimensions = () => {
-      if (svgRef.current?.parentElement) {
-        const { width, height } = svgRef.current.parentElement.getBoundingClientRect();
+      const { width, height } = container.getBoundingClientRect();
+      if (width > 0 && height > 0) {
         setDimensions({ width, height });
       }
     };
 
-    updateDimensions();
+    // Use ResizeObserver for reliable dimension detection
+    const resizeObserver = new ResizeObserver(() => {
+      updateDimensions();
+    });
+
+    resizeObserver.observe(container);
+
+    // Also trigger on window resize as fallback
     window.addEventListener('resize', updateDimensions);
-    return () => window.removeEventListener('resize', updateDimensions);
+
+    // Initial measurement with requestAnimationFrame to ensure layout is complete
+    requestAnimationFrame(updateDimensions);
+
+    return () => {
+      resizeObserver.disconnect();
+      window.removeEventListener('resize', updateDimensions);
+    };
   }, []);
 
   const showTooltip = useCallback((event: MouseEvent, content: string) => {

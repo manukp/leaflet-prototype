@@ -21,6 +21,7 @@ that uses a map interface to display various data points related to investigatio
   - Panel 3: A network graph that displays individuals involved in the investigation. Nodes in the graph represent individuals. Edges represent obvious/known relationships between individuals (e.g., suspect to victim, witness to suspect) - additional relationships can be added by investigators as they discover them during their investigation. As the user interacts with the date pickers and the slider in Panel 2b, the network graph should update to show relevant individuals and relationships based on the selected time frame. Users should be able to click on nodes and edges in the network graph to view more information via a tooltip/popover. When clicking on an individual node, the map in Panel 2a should pan to show the associated events/locations for that individual.
   - As the user zooms in and out of the map in Panel 2a, the level of detail displayed should adjust accordingly. For example, when zoomed out, only major locations may be shown, while zooming in may reveal more specific details about each location and related events or individuals.
   - Panel 3 must also update dynamically based on the zoom level and visible area of the map in Panel 2a. The network graph should only show individuals who are connected to locations currently visible on the map. As the user zooms in or pans the map, the network graph filters to display only the relevant individuals and their relationships within the visible map area.
+  - The border between Panel 2 and Panel 3 is resizable by dragging, allowing investigators to adjust the visibility of both panels to their preference.
 
 ## Acceptance Criteria
 - The application should successfully read and display data from the provided static JSON files.
@@ -33,7 +34,7 @@ that uses a map interface to display various data points related to investigatio
 ## Tech Stack & Architecture Decisions
 - Frontend: React with TypeScript for building the user interface, utilizing libraries such as Leaflet for map visualization and D3.js for data visualization.
 - Backend: Static JSON files to simulate data retrieval, with the potential for future integration with a real backend API.
-- Deployment: The application will be deployed on a static hosting service such as GitHub Pages or Netlify for easy access by investigators.
+- Deployment: The application is deployed on GitHub Pages at https://manukp.github.io/leaflet-prototype/ with client-side password protection for demo access. Use `npm run deploy` to rebuild and redeploy.
 - State Management: React's built-in state management will be used for managing the application state, with the potential for future integration of a state management library like Redux if the application complexity increases.
 - Project Structure: The application will be organized into components based on functionality, with separate folders for components, services (for data fetching), and utilities (for helper functions). This structure will promote modularity and maintainability of the codebase. Create a separate folder for the static JSON files to keep the data organized and easily accessible.
 - Create the following JSON data objects:
@@ -59,3 +60,30 @@ that uses a map interface to display various data points related to investigatio
 - Real-time data updates: The application will not support real-time data updates, as it relies on static JSON files for data.
 - User authentication and authorization: The application will not include features for user authentication or role-based access control, as it is intended for use within a secure investigative agency environment.
 - Advanced analytics: The application will not include advanced analytics features such as machine learning or predictive modeling, as it is focused on data visualization and exploration rather than data analysis.
+
+## Implementation Notes
+
+### Filtering Behavior
+- **Case filter**: When one or more cases are selected, all locations and individuals belonging to those cases are displayed, regardless of the timeline slider position. This ensures investigators can see the complete picture for a selected case.
+- **Time filter**: The timeline slider only filters locations and individuals when NO case is explicitly selected. This allows free exploration of data across time when browsing without a specific case context.
+- **Combined filters**: Location type, event type, and individual role filters always apply in addition to case/time filters.
+
+### Password Protection
+- A client-side password gate protects demo access (password configured in `.env` and `.env.production` files via `VITE_DEMO_PASSWORD`).
+- This is NOT cryptographically secure - the password is embedded in the JavaScript bundle. It deters casual access but can be bypassed with developer tools.
+- Authentication state is stored in `sessionStorage` and persists until the browser tab is closed.
+
+### Resizable Panels
+- The divider between Panel 2 (Map) and Panel 3 (Network Graph) can be dragged to resize.
+- Panel 3 width is constrained between 200px and 600px.
+
+### Data Loading
+- Static JSON files are loaded from `/public/data/` directory.
+- The data service uses Vite's `BASE_URL` to correctly resolve paths in both development and GitHub Pages deployment.
+
+### Generated Test Data
+- 15 cases with interconnected data
+- 150 locations across Phoenix AZ, Los Angeles CA, and Tucson AZ
+- 300 events with varied types and timestamps throughout 2024
+- 100 individuals with different roles
+- 48 relationships between individuals

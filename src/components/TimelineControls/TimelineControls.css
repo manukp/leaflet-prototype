@@ -81,6 +81,10 @@
 }
 
 /* Override react-datepicker styles */
+.react-datepicker-popper {
+  z-index: 1100 !important; /* Above Leaflet map (z-index ~400-1000) */
+}
+
 .react-datepicker {
   background: #2d2d44;
   border: 1px solid #444;
