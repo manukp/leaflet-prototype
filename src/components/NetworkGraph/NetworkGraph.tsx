@@ -40,6 +40,7 @@ const relationshipColors: Record<RelationshipType, string> = {
 
 export function NetworkGraph() {
   const svgRef = useRef<SVGSVGElement>(null);
+  const containerRef = useRef<HTMLDivElement>(null);
   const tooltipRef = useRef<HTMLDivElement>(null);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
 
@@ -52,13 +53,19 @@ export function NetworkGraph() {
 
   // Update dimensions on resize using ResizeObserver for reliable initial render
   useEffect(() => {
-    const container = svgRef.current?.parentElement;
+    const container = containerRef.current;
     if (!container) return;
 
     const updateDimensions = () => {
       const { width, height } = container.getBoundingClientRect();
       if (width > 0 && height > 0) {
-        setDimensions({ width, height });
+        setDimensions(prev => {
+          // Only update if dimensions actually changed to avoid unnecessary re-renders
+          if (prev.width !== width || prev.height !== height) {
+            return { width, height };
+          }
+          return prev;
+        });
       }
     };
 
@@ -69,15 +76,15 @@ export function NetworkGraph() {
 
     resizeObserver.observe(container);
 
-    // Also trigger on window resize as fallback
-    window.addEventListener('resize', updateDimensions);
-
-    // Initial measurement with requestAnimationFrame to ensure layout is complete
+    // Initial measurement - use multiple attempts to ensure we get dimensions
+    updateDimensions();
     requestAnimationFrame(updateDimensions);
+    // Fallback timeout for slower browsers
+    const timeoutId = setTimeout(updateDimensions, 100);
 
     return () => {
       resizeObserver.disconnect();
-      window.removeEventListener('resize', updateDimensions);
+      clearTimeout(timeoutId);
     };
   }, []);
 
@@ -265,7 +272,7 @@ export function NetworkGraph() {
         <h3>Network Graph</h3>
         <span className="node-count">{visibleIndividuals.length} individuals</span>
       </div>
-      <div className="graph-container">
+      <div className="graph-container" ref={containerRef}>
         <svg ref={svgRef} width="100%" height="100%" />
       </div>
       <div ref={tooltipRef} className="graph-tooltip" />
