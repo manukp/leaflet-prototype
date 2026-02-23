@@ -216,6 +216,25 @@ export function AppProvider({ children }: { children: ReactNode }) {
     });
   });
 
+  // Debug logging for filtering (only log when data changes significantly)
+  useEffect(() => {
+    if (!loading) {
+      console.log('AppContext filter state:', {
+        totalIndividuals: individuals.length,
+        filteredIndividualsCount: filteredIndividuals.length,
+        visibleIndividualsCount: visibleIndividuals.length,
+        filteredLocationsCount: filteredLocations.length,
+        filteredEventsCount: filteredEvents.length,
+        mapBounds: mapBounds ? `N:${mapBounds.north.toFixed(2)} S:${mapBounds.south.toFixed(2)} E:${mapBounds.east.toFixed(2)} W:${mapBounds.west.toFixed(2)}` : 'null',
+        selectedCaseIds: filters.selectedCaseIds.length,
+        hasDateRange: !!filters.dateRange.start,
+        hasTimePoint: !!filters.currentTimePoint
+      });
+    }
+  }, [loading, individuals.length, filteredIndividuals.length, visibleIndividuals.length,
+      filteredLocations.length, filteredEvents.length, mapBounds, filters.selectedCaseIds.length,
+      filters.dateRange.start, filters.currentTimePoint]);
+
   // Pan to individual's associated location
   const panToIndividual = useCallback((individualId: string) => {
     const individual = individuals.find(i => i.id === individualId);

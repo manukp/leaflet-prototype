@@ -54,13 +54,19 @@ export function NetworkGraph() {
   // Update dimensions on resize using ResizeObserver for reliable initial render
   useEffect(() => {
     const container = containerRef.current;
-    if (!container) return;
+    if (!container) {
+      console.warn('NetworkGraph: containerRef.current is null');
+      return;
+    }
 
     const updateDimensions = () => {
-      const { width, height } = container.getBoundingClientRect();
+      const rect = container.getBoundingClientRect();
+      const { width, height } = rect;
+
+      console.log('NetworkGraph dimensions:', { width, height, containerExists: !!container });
+
       if (width > 0 && height > 0) {
         setDimensions(prev => {
-          // Only update if dimensions actually changed to avoid unnecessary re-renders
           if (prev.width !== width || prev.height !== height) {
             return { width, height };
           }
@@ -70,8 +76,19 @@ export function NetworkGraph() {
     };
 
     // Use ResizeObserver for reliable dimension detection
-    const resizeObserver = new ResizeObserver(() => {
-      updateDimensions();
+    const resizeObserver = new ResizeObserver((entries) => {
+      for (const entry of entries) {
+        const { width, height } = entry.contentRect;
+        console.log('NetworkGraph ResizeObserver:', { width, height });
+        if (width > 0 && height > 0) {
+          setDimensions(prev => {
+            if (prev.width !== width || prev.height !== height) {
+              return { width, height };
+            }
+            return prev;
+          });
+        }
+      }
     });
 
     resizeObserver.observe(container);
@@ -79,12 +96,14 @@ export function NetworkGraph() {
     // Initial measurement - use multiple attempts to ensure we get dimensions
     updateDimensions();
     requestAnimationFrame(updateDimensions);
-    // Fallback timeout for slower browsers
-    const timeoutId = setTimeout(updateDimensions, 100);
+    // Multiple fallback timeouts for different browser behaviors
+    const timeoutId1 = setTimeout(updateDimensions, 100);
+    const timeoutId2 = setTimeout(updateDimensions, 500);
 
     return () => {
       resizeObserver.disconnect();
-      clearTimeout(timeoutId);
+      clearTimeout(timeoutId1);
+      clearTimeout(timeoutId2);
     };
   }, []);
 
@@ -103,7 +122,22 @@ export function NetworkGraph() {
 
   // Build and render the graph
   useEffect(() => {
-    if (!svgRef.current || dimensions.width === 0 || dimensions.height === 0 || loading) return;
+    console.log('NetworkGraph render effect:', {
+      hasSvgRef: !!svgRef.current,
+      dimensions,
+      loading,
+      visibleIndividualsCount: visibleIndividuals.length,
+      relationshipsCount: relationships.length
+    });
+
+    if (!svgRef.current || dimensions.width === 0 || dimensions.height === 0 || loading) {
+      console.log('NetworkGraph: Early return -', {
+        noSvgRef: !svgRef.current,
+        zeroDimensions: dimensions.width === 0 || dimensions.height === 0,
+        loading
+      });
+      return;
+    }
 
     const svg = d3.select(svgRef.current);
     svg.selectAll('*').remove();
@@ -129,7 +163,10 @@ export function NetworkGraph() {
         relationshipType: rel.relationshipType
       }));
 
+    console.log('NetworkGraph nodes/links:', { nodesCount: nodes.length, linksCount: links.length });
+
     if (nodes.length === 0) {
+      console.log('NetworkGraph: No nodes to render');
       svg.append('text')
         .attr('x', dimensions.width / 2)
         .attr('y', dimensions.height / 2)

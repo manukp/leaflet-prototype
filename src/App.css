@@ -55,6 +55,7 @@
   min-width: 200px;
   max-width: 600px;
   flex-shrink: 0;
+  height: 100%;
 }
 
 /* Resizable divider */
