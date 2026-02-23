@@ -51,19 +51,21 @@ export function NetworkGraph() {
     loading
   } = useAppContext();
 
-  // Update dimensions on resize using ResizeObserver for reliable initial render
+  // Update dimensions on resize using ResizeObserver
+  // Note: Must depend on `loading` because the container ref is only available after loading completes
   useEffect(() => {
+    // Skip if still loading - the container won't be in the DOM yet
+    if (loading) return;
+
     const container = containerRef.current;
     if (!container) {
-      console.warn('NetworkGraph: containerRef.current is null');
+      console.warn('NetworkGraph: containerRef.current is null after loading');
       return;
     }
 
     const updateDimensions = () => {
       const rect = container.getBoundingClientRect();
       const { width, height } = rect;
-
-      console.log('NetworkGraph dimensions:', { width, height, containerExists: !!container });
 
       if (width > 0 && height > 0) {
         setDimensions(prev => {
@@ -79,7 +81,6 @@ export function NetworkGraph() {
     const resizeObserver = new ResizeObserver((entries) => {
       for (const entry of entries) {
         const { width, height } = entry.contentRect;
-        console.log('NetworkGraph ResizeObserver:', { width, height });
         if (width > 0 && height > 0) {
           setDimensions(prev => {
             if (prev.width !== width || prev.height !== height) {
@@ -93,19 +94,16 @@ export function NetworkGraph() {
 
     resizeObserver.observe(container);
 
-    // Initial measurement - use multiple attempts to ensure we get dimensions
+    // Initial measurement with fallback
     updateDimensions();
     requestAnimationFrame(updateDimensions);
-    // Multiple fallback timeouts for different browser behaviors
-    const timeoutId1 = setTimeout(updateDimensions, 100);
-    const timeoutId2 = setTimeout(updateDimensions, 500);
+    const timeoutId = setTimeout(updateDimensions, 100);
 
     return () => {
       resizeObserver.disconnect();
-      clearTimeout(timeoutId1);
-      clearTimeout(timeoutId2);
+      clearTimeout(timeoutId);
     };
-  }, []);
+  }, [loading]);
 
   const showTooltip = useCallback((event: MouseEvent, content: string) => {
     if (!tooltipRef.current) return;
@@ -122,20 +120,7 @@ export function NetworkGraph() {
 
   // Build and render the graph
   useEffect(() => {
-    console.log('NetworkGraph render effect:', {
-      hasSvgRef: !!svgRef.current,
-      dimensions,
-      loading,
-      visibleIndividualsCount: visibleIndividuals.length,
-      relationshipsCount: relationships.length
-    });
-
     if (!svgRef.current || dimensions.width === 0 || dimensions.height === 0 || loading) {
-      console.log('NetworkGraph: Early return -', {
-        noSvgRef: !svgRef.current,
-        zeroDimensions: dimensions.width === 0 || dimensions.height === 0,
-        loading
-      });
       return;
     }
 
@@ -163,10 +148,7 @@ export function NetworkGraph() {
         relationshipType: rel.relationshipType
       }));
 
-    console.log('NetworkGraph nodes/links:', { nodesCount: nodes.length, linksCount: links.length });
-
     if (nodes.length === 0) {
-      console.log('NetworkGraph: No nodes to render');
       svg.append('text')
         .attr('x', dimensions.width / 2)
         .attr('y', dimensions.height / 2)
